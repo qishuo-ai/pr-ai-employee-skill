@@ -6,6 +6,8 @@
 
 **Created by Qishuo · Built with Yubai**
 
+**中文文档：** [完整中文说明](README.zh-CN.md) · [5分钟快速开始](docs/QUICKSTART.zh-CN.md) · [项目说明](docs/ABOUT.zh-CN.md)
+
 ## What it does / 它能做什么
 
 `PR AI Employee Skill` 是一套面向 PR、品牌传播、汽车营销和 Agency 团队的开源 Agent Skill。它把真实公关工作拆成可执行的判断规则、岗位、Playbook、风险门槛和评测集，让通用 AI Agent 更接近一名受过训练的公关员工。
@@ -90,6 +92,8 @@ Limited Autonomy
 ## Quick start
 
 把仓库提供给支持文件型 Skills / Agent instructions 的运行环境，并让 Agent 首先读取 `SKILL.md`。如果框架支持模块化加载，再按任务加载对应 `playbooks/` 与 `policies/`。
+
+更详细的中文安装方法见：[docs/QUICKSTART.zh-CN.md](docs/QUICKSTART.zh-CN.md)。
 
 示例任务：
 
