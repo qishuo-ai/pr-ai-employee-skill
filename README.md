@@ -6,7 +6,7 @@
 
 **Created by Qishuo · Built with Yubai**
 
-**中文文档：** [完整中文说明](README.zh-CN.md) · [5分钟快速开始](docs/QUICKSTART.zh-CN.md) · [项目说明](docs/ABOUT.zh-CN.md)
+**中文文档：** [完整中文说明](README.zh-CN.md) · [5分钟快速开始](docs/QUICKSTART.zh-CN.md) · [安装指南](docs/INSTALL.zh-CN.md) · [项目说明](docs/ABOUT.zh-CN.md)
 
 ## What it does / 它能做什么
 
@@ -76,6 +76,21 @@ Limited Autonomy
 
 不要从“自动回复客户”开始。先证明 Agent 能稳定判断风险和边界。
 
+## Install / 安装
+
+```bash
+git clone https://github.com/qishuo-ai/pr-ai-employee-skill.git
+cd pr-ai-employee-skill
+```
+
+然后让 Agent 首先读取 `SKILL.md` 和 `policies/risk-and-approval.yaml`，再按任务加载对应 Playbook。首次部署默认使用 Shadow Mode。
+
+- [English installation guide](docs/INSTALL.md)
+- [中文安装指南](docs/INSTALL.zh-CN.md)
+- [5分钟快速开始](docs/QUICKSTART.zh-CN.md)
+
+仓库不绑定单一模型或 Agent 框架，可作为 Codex、Claude Code、OpenClaw 及其他 repository-aware / file-based Agent 的职业规则层。具体平台安装方式可能变化，请同时参考对应运行环境的最新文档。
+
 ## Repository structure
 
 ```text
@@ -89,13 +104,7 @@ Limited Autonomy
 └── evals/
 ```
 
-## Quick start
-
-把仓库提供给支持文件型 Skills / Agent instructions 的运行环境，并让 Agent 首先读取 `SKILL.md`。如果框架支持模块化加载，再按任务加载对应 `playbooks/` 与 `policies/`。
-
-更详细的中文安装方法见：[docs/QUICKSTART.zh-CN.md](docs/QUICKSTART.zh-CN.md)。
-
-示例任务：
+## Quick test / 快速验证
 
 ```text
 客户要求周末完成全部部署，但专项语料训练尚未完成。
@@ -122,6 +131,7 @@ Limited Autonomy
 - [x] Automotive fact gate
 - [x] Pitch / crisis / project delivery playbooks
 - [x] Shadow Mode
+- [x] Multi-runtime installation guide
 - [ ] More anonymized PR cases
 - [ ] Automated eval runner
 - [ ] WeCom / Slack / Lark reference integrations
