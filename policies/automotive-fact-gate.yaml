@@ -1,0 +1,29 @@
+version: 1.0.0
+automotive_fact_gate:
+  hard_gate_topics:
+    - vehicle_model
+    - trim
+    - powertrain
+    - acceleration
+    - range
+    - charging
+    - price
+    - sales
+    - awards
+    - racing_results
+    - launch_market
+    - superlative_claims
+  required_evidence:
+    - brand
+    - model
+    - market
+    - version
+    - claim
+    - authoritative_source
+    - source_date
+    - verification_date
+  rules:
+    - never_invent_specs_from_model_memory
+    - use_market_specific_official_information_when_available
+    - mark_unverified_claims_as_pending
+    - vehicle_change_requires_ksp_and_narrative_rewrite

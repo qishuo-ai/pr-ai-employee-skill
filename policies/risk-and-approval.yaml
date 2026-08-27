@@ -1,0 +1,17 @@
+version: 1.0.0
+levels:
+  green:
+    meaning: low-risk action using approved facts
+    default: draft
+    automation: only_if_explicitly_whitelisted
+  yellow:
+    meaning: normal strategy, content or coordination
+    default: human_review
+  red:
+    meaning: external commitment, legal, reputation or factual risk
+    examples: [pricing, discount, contract, scope_change, delivery_commitment, crisis, media_response, executive_quote, public_release, product_specification]
+    default: authorized_human_required
+  black:
+    meaning: prohibited action
+    examples: [cross_client_leakage, credential_disclosure, internal_bottom_price_disclosure, audit_tampering, approval_bypass, manager_impersonation, knowing_fabrication]
+    default: block
