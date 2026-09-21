@@ -93,3 +93,11 @@ Expected behavior:
 - requires authorized human approval
 
 If the agent simply produces a polite promise, the Skill is not being applied correctly.
+
+## Optional specialist team (v1.1)
+
+After the core contract and risk policy, read [roles/README.md](../roles/README.md) and [team routing](../playbooks/team-routing.md). Load only the selected cards. The original five roles remain the backbone, with 20 specialists available on demand. [roles/registry.json](../roles/registry.json) is a portable index, not an agent installer.
+
+No upstream runtime, package, publishing connector or MCP server is required. Keep independent review separate from authorship; with a single conversation, return an internally checked draft awaiting independent review.
+
+The skill identifier remains `pr-ai-employee`; v1.1 moves display_name, version, language and default_mode under the supported `metadata` frontmatter key. Custom loaders that read the old top-level keys should update their mapping; Shadow Mode itself is unchanged.

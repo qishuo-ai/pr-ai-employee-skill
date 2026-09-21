@@ -5,3 +5,12 @@ Methodology brand: Qishuo
 Built with Yubai
 
 This public repository contains generalized and anonymized PR/communications methodology. It intentionally excludes confidential client information, private conversations, internal commercial data and personal data.
+
+Selected role methods are adapted from agency-agents-zh:
+https://github.com/jnMetaCode/agency-agents-zh
+Source revision: da1542f56c95db75d0da18485eccad722a5f4fde
+Copyright (c) 2025 Michael Sitarzewski (original English version)
+Copyright (c) 2026 jnMetaCode (Chinese translation and localization)
+Used under the MIT License; see licenses/agency-agents-zh-MIT.txt.
+Adaptations retain this project's PR risk, evidence and approval boundaries.
+The Apache-2.0 license for this project does not replace the above notices.
