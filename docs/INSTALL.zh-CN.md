@@ -98,3 +98,11 @@ SKILL.md 是核心契约；任何外部动作前先执行风险分级。
 - 只复制几句 Prompt 而删除风险门。
 - 第一次接入客户群就开启全自动回复。
 - 让同一个 Agent 生产、审核并批准自己的高风险输出。
+
+## 按需调用专才（v1.1）
+
+在核心契约与风险政策之后，读取 [岗位目录](../roles/README.md) 和 [团队路由](../playbooks/team-routing.md)，只加载当前任务需要的岗位卡。原有 5 个核心岗位保留，另有 20 个专才可选；[registry.json](../roles/registry.json) 是可移植的岗位索引，不是自动安装器。
+
+无需安装上游运行时、发布插件或 MCP。只有单一会话时可逐岗执行，但应将结果标为待独立审核，不能把换角色自检当独立批准。
+
+技能标识仍为 `pr-ai-employee`。v1.1 将 display_name、version、language、default_mode 移入标准 frontmatter 的 `metadata` 内；自定义读取器若依赖旧顶层字段，应相应更新字段映射，Shadow Mode 规则不变。

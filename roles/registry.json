@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "skill": "pr-ai-employee",
+  "version": "1.1.0",
+  "default_mode": "shadow",
+  "runtime": "declarative_only",
+  "roles": [
+    {
+      "id": "project-lead",
+      "name": "公关项目总管｜PR Project Lead",
+      "kind": "core",
+      "path": "roles/project-lead.md",
+      "capability": "统一入口、需求判断、风险与任务分派",
+      "source_paths": [
+        "marketing/marketing-pr-communications-manager.md",
+        "specialized/agents-orchestrator.md"
+      ]
+    },
+    {
+      "id": "strategy-director",
+      "name": "公关策略总监｜PR Strategy Director",
+      "kind": "core",
+      "path": "roles/strategy-director.md",
+      "capability": "证据链、定位、策略取舍与传播机制",
+      "source_paths": [
+        "company/chief-marketing-officer.md"
+      ]
+    },
+    {
+      "id": "content-messaging",
+      "name": "内容与口径官｜Content & Messaging Officer",
+      "kind": "core",
+      "path": "roles/content-messaging.md",
+      "capability": "母稿、Q&A、发言稿与统一口径",
+      "source_paths": [
+        "marketing/marketing-content-creator.md",
+        "marketing/marketing-pr-communications-manager.md"
+      ]
+    },
+    {
+      "id": "project-ops",
+      "name": "项目运营官｜Project Ops",
+      "kind": "core",
+      "path": "roles/project-ops.md",
+      "capability": "WBS/RACI、纪要、排期、变更与验收",
+      "source_paths": [
+        "project-management/project-management-meeting-notes-specialist.md",
+        "project-management/project-manager-senior.md"
+      ]
+    },
+    {
+      "id": "independent-reviewer",
+      "name": "独立审核官｜Independent Reviewer",
+      "kind": "core",
+      "path": "roles/independent-reviewer.md",
+      "capability": "独立证据核验、质量结论与风险拦截",
+      "source_paths": [
+        "testing/testing-evidence-collector.md",
+        "testing/testing-reality-checker.md"
+      ]
+    },
+    {
+      "id": "research-insights",
+      "name": "研究与洞察官｜Research & Insights Officer",
+      "kind": "specialist",
+      "path": "roles/research-insights.md",
+      "capability": "趋势/竞品/用户研究、证据卡与机会判断",
+      "source_paths": [
+        "marketing/marketing-china-market-localization-strategist.md",
+        "marketing/marketing-daily-news-briefing.md",
+        "marketing/marketing-x-twitter-intelligence-analyst.md",
+        "product/product-feedback-synthesizer.md",
+        "product/product-trend-researcher.md"
+      ]
+    },
+    {
+      "id": "media-kol",
+      "name": "媒体与达人合作官｜Media & Creator Relations Officer",
+      "kind": "specialist",
+      "path": "roles/media-kol.md",
+      "capability": "媒体与达人任务、个性化pitch、采访/合作brief",
+      "source_paths": [
+        "marketing/marketing-bilibili-strategist.md",
+        "marketing/marketing-pr-communications-manager.md",
+        "marketing/marketing-xiaohongshu-operator.md"
+      ]
+    },
+    {
+      "id": "social-strategy",
+      "name": "社交传播统筹官｜Social Strategy Officer",
+      "kind": "specialist",
+      "path": "roles/social-strategy.md",
+      "capability": "跨平台任务分工、内容矩阵与测量",
+      "source_paths": [
+        "company/chief-marketing-officer.md",
+        "marketing/marketing-content-creator.md",
+        "marketing/marketing-multi-platform-publisher.md",
+        "marketing/marketing-social-media-strategist.md"
+      ]
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书内容与口碑官｜Xiaohongshu Content Officer",
+      "kind": "specialist",
+      "path": "roles/xiaohongshu.md",
+      "capability": "场景笔记、搜索问题、达人内容与真实口碑",
+      "source_paths": [
+        "marketing/marketing-xiaohongshu-operator.md",
+        "marketing/marketing-xiaohongshu-specialist.md"
+      ]
+    },
+    {
+      "id": "douyin",
+      "name": "抖音短视频策划官｜Douyin Video Planning Officer",
+      "kind": "specialist",
+      "path": "roles/douyin.md",
+      "capability": "短视频选题、开头/证明/行动脚本与复盘",
+      "source_paths": [
+        "marketing/marketing-douyin-strategist.md"
+      ]
+    },
+    {
+      "id": "wechat",
+      "name": "微信内容与关系运营官｜WeChat Content & Relationship Officer",
+      "kind": "specialist",
+      "path": "roles/wechat.md",
+      "capability": "公众号深度内容、视频号与微信承接",
+      "source_paths": [
+        "marketing/marketing-wechat-official-account.md",
+        "marketing/marketing-wechat-operator.md",
+        "marketing/marketing-weixin-channels-strategist.md"
+      ]
+    },
+    {
+      "id": "weibo",
+      "name": "微博话题与舆情官｜Weibo Topic & Reputation Officer",
+      "kind": "specialist",
+      "path": "roles/weibo.md",
+      "capability": "热点判断、议题节奏、互动与舆情分流",
+      "source_paths": [
+        "marketing/marketing-weibo-strategist.md",
+        "marketing/marketing-x-twitter-intelligence-analyst.md"
+      ]
+    },
+    {
+      "id": "bilibili",
+      "name": "B站深度内容官｜Bilibili Long-form Content Officer",
+      "kind": "specialist",
+      "path": "roles/bilibili.md",
+      "capability": "长视频叙事、知识证明与创作者合作",
+      "source_paths": [
+        "marketing/marketing-bilibili-strategist.md"
+      ]
+    },
+    {
+      "id": "overseas-social",
+      "name": "海外社交与高管内容官｜Global Social & Executive Content Officer",
+      "kind": "specialist",
+      "path": "roles/overseas-social.md",
+      "capability": "目标市场与海外平台原生表达、本地化审核",
+      "source_paths": [
+        "marketing/marketing-instagram-curator.md",
+        "marketing/marketing-linkedin-content-creator.md",
+        "marketing/marketing-reddit-community-builder.md",
+        "marketing/marketing-tiktok-strategist.md",
+        "marketing/marketing-x-twitter-intelligence-analyst.md"
+      ]
+    },
+    {
+      "id": "geo",
+      "name": "AI 搜索可见性官｜AI Search Visibility Officer",
+      "kind": "specialist",
+      "path": "roles/geo.md",
+      "capability": "AI搜索样本、证据内容与可见性测量",
+      "source_paths": [
+        "marketing/marketing-ai-citation-strategist.md",
+        "marketing/marketing-search-growth-orchestrator.md"
+      ]
+    },
+    {
+      "id": "brand-guardian",
+      "name": "品牌一致性官｜Brand Guardian",
+      "kind": "specialist",
+      "path": "roles/brand-guardian.md",
+      "capability": "品牌声音、主张/视觉一致性与授权检查",
+      "source_paths": [
+        "design/design-brand-guardian.md"
+      ]
+    },
+    {
+      "id": "visual-storytelling",
+      "name": "视觉叙事官｜Visual Storytelling Officer",
+      "kind": "specialist",
+      "path": "roles/visual-storytelling.md",
+      "capability": "提案页面核心观点、信息层级与视觉叙事",
+      "source_paths": [
+        "design/design-visual-storyteller.md"
+      ]
+    },
+    {
+      "id": "image-director",
+      "name": "图像导演｜Image Director",
+      "kind": "specialist",
+      "path": "roles/image-director.md",
+      "capability": "商业图像brief、构图、提示词与一致性",
+      "source_paths": [
+        "design/design-image-prompt-engineer.md"
+      ]
+    },
+    {
+      "id": "video-director",
+      "name": "视频导演｜Video Director",
+      "kind": "specialist",
+      "path": "roles/video-director.md",
+      "capability": "分镜、运镜、主体一致性与制作规格",
+      "source_paths": [
+        "design/design-video-prompt-engineer.md",
+        "design/design-visual-storyteller.md"
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "传播分析与实验官｜Communications Analytics Officer",
+      "kind": "specialist",
+      "path": "roles/analytics.md",
+      "capability": "指标定义、基线、归因限制与实验复盘",
+      "source_paths": [
+        "paid-media/paid-media-tracking-specialist.md",
+        "project-management/project-management-experiment-tracker.md",
+        "support/support-analytics-reporter.md"
+      ]
+    },
+    {
+      "id": "commercial-proposal",
+      "name": "商业提案与预算官｜Commercial Proposal Officer",
+      "kind": "specialist",
+      "path": "roles/commercial-proposal.md",
+      "capability": "赢标逻辑、服务范围、成本假设与变更",
+      "source_paths": [
+        "sales/sales-proposal-strategist.md",
+        "support/support-executive-summary-generator.md",
+        "support/support-finance-tracker.md"
+      ]
+    },
+    {
+      "id": "ai-workflow",
+      "name": "AI 营销工作流官｜AI Marketing Workflow Officer",
+      "kind": "specialist",
+      "path": "roles/ai-workflow.md",
+      "capability": "AI营销角色/功能/数据/权限/试点验收",
+      "source_paths": [
+        "sales/sales-engineer.md",
+        "specialized/automation-governance-architect.md",
+        "specialized/specialized-workflow-architect.md"
+      ]
+    },
+    {
+      "id": "crisis-response",
+      "name": "舆情与危机研判官｜Crisis Response Specialist",
+      "kind": "specialist",
+      "path": "roles/crisis-response.md",
+      "capability": "事实控制、利益相关方、holding line与升级",
+      "source_paths": [
+        "company/chief-marketing-officer.md",
+        "marketing/marketing-pr-communications-manager.md"
+      ]
+    },
+    {
+      "id": "private-domain",
+      "name": "私域与车主运营官｜Community & Owner Operations",
+      "kind": "specialist",
+      "path": "roles/private-domain.md",
+      "capability": "车主/社群服务、生命周期与线索转交",
+      "source_paths": [
+        "marketing/marketing-private-domain-operator.md"
+      ]
+    },
+    {
+      "id": "paid-media",
+      "name": "付费传播策划官｜Paid Media Planner",
+      "kind": "specialist",
+      "path": "roles/paid-media.md",
+      "capability": "付费传播、素材测试、预算与增量测量",
+      "source_paths": [
+        "company/chief-marketing-officer.md",
+        "paid-media/paid-media-paid-social-strategist.md"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "client-service",
+      "task_types": [
+        "client_reply",
+        "project_ops"
+      ],
+      "lead": "project-lead",
+      "optional_specialists": [
+        "project-ops",
+        "commercial-proposal"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "判断、答复草稿、行动/变更"
+    },
+    {
+      "id": "strategy-pitch",
+      "task_types": [
+        "strategy",
+        "proposal"
+      ],
+      "lead": "strategy-director",
+      "optional_specialists": [
+        "research-insights",
+        "media-kol",
+        "brand-guardian",
+        "commercial-proposal",
+        "visual-storytelling"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "证据、策略、战役与页面计划"
+    },
+    {
+      "id": "messaging",
+      "task_types": [
+        "content"
+      ],
+      "lead": "content-messaging",
+      "optional_specialists": [
+        "brand-guardian",
+        "media-kol"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "母稿、信息/事实对照与采访包"
+    },
+    {
+      "id": "china-social",
+      "task_types": [
+        "social"
+      ],
+      "lead": "social-strategy",
+      "optional_specialists": [
+        "research-insights",
+        "xiaohongshu",
+        "douyin",
+        "wechat",
+        "weibo",
+        "bilibili",
+        "analytics"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "按指定平台选择专才，交内容矩阵",
+      "single_platform_override": {
+        "condition": "Exactly one of the listed platforms is requested for routine content; keep the independent reviewer and only necessary supporting roles.",
+        "lead_by_platform": {
+          "xiaohongshu": "xiaohongshu",
+          "douyin": "douyin",
+          "wechat": "wechat",
+          "weibo": "weibo",
+          "bilibili": "bilibili"
+        }
+      }
+    },
+    {
+      "id": "global-social",
+      "task_types": [
+        "social",
+        "strategy"
+      ],
+      "lead": "strategy-director",
+      "optional_specialists": [
+        "overseas-social",
+        "media-kol",
+        "brand-guardian"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "市场叙事、当地事实与平台计划"
+    },
+    {
+      "id": "search-visibility",
+      "task_types": [
+        "strategy",
+        "reporting"
+      ],
+      "lead": "geo",
+      "optional_specialists": [
+        "research-insights",
+        "content-messaging",
+        "analytics"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "查询样本、可见性基线、证据改进"
+    },
+    {
+      "id": "crisis",
+      "task_types": [
+        "crisis"
+      ],
+      "lead": "project-lead",
+      "optional_specialists": [
+        "crisis-response",
+        "content-messaging"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "事实表、口径拟稿、审批与更新"
+    },
+    {
+      "id": "event-community",
+      "task_types": [
+        "event"
+      ],
+      "lead": "project-ops",
+      "optional_specialists": [
+        "private-domain",
+        "media-kol",
+        "content-messaging"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "体验/证明/传播/承接、排期与验收"
+    },
+    {
+      "id": "paid-campaign",
+      "task_types": [
+        "social",
+        "pricing"
+      ],
+      "lead": "social-strategy",
+      "optional_specialists": [
+        "paid-media",
+        "commercial-proposal",
+        "analytics"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "预算假设、素材测试与测量"
+    },
+    {
+      "id": "ai-marketing-system",
+      "task_types": [
+        "proposal",
+        "project_ops"
+      ],
+      "lead": "project-lead",
+      "optional_specialists": [
+        "ai-workflow",
+        "project-ops",
+        "commercial-proposal"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "功能、数据、权限、试点与验收"
+    },
+    {
+      "id": "visual-production",
+      "task_types": [
+        "content",
+        "proposal"
+      ],
+      "lead": "content-messaging",
+      "optional_specialists": [
+        "visual-storytelling",
+        "image-director",
+        "video-director",
+        "brand-guardian"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "文字/视觉方案与提示词"
+    },
+    {
+      "id": "measurement",
+      "task_types": [
+        "reporting"
+      ],
+      "lead": "project-ops",
+      "optional_specialists": [
+        "analytics"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "指标口径、复盘结论与下一轮实验"
+    },
+    {
+      "id": "commercial",
+      "task_types": [
+        "pricing"
+      ],
+      "lead": "project-lead",
+      "optional_specialists": [
+        "commercial-proposal",
+        "project-ops"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "范围、工作量、内部估算与待审批项"
+    },
+    {
+      "id": "fact-verification",
+      "task_types": [
+        "fact_check"
+      ],
+      "lead": "research-insights",
+      "optional_specialists": [
+        "brand-guardian"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "市场/版本/日期证据与下游失效列表"
+    },
+    {
+      "id": "media-relations",
+      "task_types": [
+        "media_kol"
+      ],
+      "lead": "media-kol",
+      "optional_specialists": [
+        "content-messaging"
+      ],
+      "reviewer": "independent-reviewer",
+      "output": "候选任务匹配、采访与brief"
+    }
+  ]
+}

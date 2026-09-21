@@ -223,7 +223,7 @@ status:
 
 ---
 
-# AI 员工岗位架构
+# AI 员工核心岗位架构
 
 ```text
 PR AI Employee
@@ -254,6 +254,24 @@ PR AI Employee
 专业角色在后台协作，避免多个 Agent 同时在客户群里抢答。
 
 ---
+
+## v1.1 岗位能力扩展
+
+保留原有 **5 个核心岗位**，将 [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) 的相关方法选择性改编为 **20 个按需专才**，组成 25 岗位目录：
+
+- 策略与传播：研究洞察、媒体/KOL、社媒统筹、舆情危机、GEO。
+- 平台与用户：小红书、抖音、微信（公众号/视频号）、微博、B站、海外社媒、私域/车主运营、付费传播。
+- 创意与交付：品牌守护、视觉叙事、图像导演、视频导演、数据分析、商务提案、AI营销工作流。
+
+使用 [岗位目录](roles/README.md) 选择员工，按 [团队路由](playbooks/team-routing.md) 交接；[机器可读注册表](roles/registry.json) 支持运行环境自行映射。这里只提供岗位方法和协作协议，不自动安装 Agent 服务、发布工具或 MCP。
+
+```text
+请按 PR AI Employee Skill，为新车上市安排小红书、抖音和微信内容团队。
+先给岗位分工、事实缺口和两周内容计划，保持 Shadow Mode。
+已批准事实由我提供；没有证据的参数先标待核验。
+```
+
+[来源、筛选与改编说明](docs/AGENCY-AGENTS-INTEGRATION.zh-CN.md) · [上游 MIT 声明](licenses/agency-agents-zh-MIT.txt)
 
 # 四级风险模型
 
@@ -397,6 +415,7 @@ templates/
 - [x] 竞标 / 危机 / 项目交付 Playbook
 - [x] Shadow Mode 方法
 - [x] 第一批 Evals
+- [x] 25 岗位能力卡、任务路由与来源追溯
 - [ ] 更多匿名公关案例
 - [ ] 自动化 Eval Runner
 - [ ] 企业微信 / 飞书 / Slack 接入参考
@@ -409,7 +428,7 @@ templates/
 
 Apache License 2.0。
 
-允许个人和企业使用、修改和分发，具体以 `LICENSE` 为准。
+允许个人和企业使用、修改和分发，具体以 `LICENSE` 为准。选择性改编的上游岗位方法同时保留 [NOTICE](NOTICE) 与 [MIT 声明](licenses/agency-agents-zh-MIT.txt)。
 
 ---
 
