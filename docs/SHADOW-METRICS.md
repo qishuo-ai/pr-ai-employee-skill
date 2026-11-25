@@ -1,8 +1,12 @@
 # Shadow Mode measurement / 影子模式指标
 
-This module measures saved observations; it does not contact clients, run a model, authorize a release, or certify that a reviewer is independent. Public examples are **synthetic demonstrations**, including an intentional risk miss. There are **zero observed production events** in this repository. The historical illustrative 38.7/95.7 scores are not inputs to these metrics.
+This module measures saved observations; it does not contact clients, run a model, authorize a release, or certify that a reviewer is independent. This module's public fixtures are **synthetic demonstrations**, including an intentional risk miss. There are **zero observed production events** in this repository. The historical illustrative 38.7/95.7 scores are not inputs to these metrics.
 
-本模块统计已记录的影子观察，不发送客户消息、不调用模型、不授权发布，也不验证审核人的独立性。公开示例全部为**合成演示数据**，其中故意包含一条风险漏判，用于验证指标计算。仓库尚无真实生产观察；历史示意分数 38.7/95.7 不进入统计。
+本模块统计已记录的影子观察，不发送客户消息、不调用模型、不授权发布，也不验证审核人的独立性。本模块公开示例全部为**合成演示数据**，其中故意包含一条风险漏判，用于验证指标计算。仓库尚无真实生产观察；历史示意分数 38.7/95.7 不进入统计。
+
+The separately published [anonymous historical casebook](REAL-WORLD-EVIDENCE.md) is real-work retrospective evidence. It does not populate `observed`, change these denominators, or establish quality acceptance.
+
+另行公开的[匿名历史案例](REAL-WORLD-EVIDENCE.md)属于真实业务回溯证据，不写入 `observed`，不改变本模块分母，也不补算质量验收。
 
 ## Run / 运行
 

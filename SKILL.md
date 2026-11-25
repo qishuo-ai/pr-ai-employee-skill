@@ -178,7 +178,7 @@ For first deployment, default to Shadow Mode:
 - record errors and corrections
 - convert repeated, generalizable corrections into rules/evals
 
-Record observations with the [Shadow metrics implementation](docs/SHADOW-METRICS.md). Keep human first-pass acceptance separate from character edit distance, and count risk misses and latency with explicit denominators. Public examples must be synthetic; real client logs stay in an authorized private location outside this repository.
+Record observations with the [Shadow metrics implementation](docs/SHADOW-METRICS.md). Keep human first-pass acceptance separate from character edit distance, and count risk misses and latency with explicit denominators. Public Shadow fixtures must be synthetic; real client logs stay in an authorized private location outside this repository. Authorized anonymous historical summaries use the separate [retrospective evidence contract](docs/REAL-WORLD-EVIDENCE.md): a receipt or completion claim is not quality acceptance, image/file variants are not independent trials, and chat spans are not model latency. Never relabel a historical replay as a prospective observation.
 
 Only move to Copilot or limited autonomy after the agent demonstrates reliable risk classification, factual accuracy and low human correction rates.
 

@@ -19,4 +19,6 @@ jobs:
         run: python3 scripts/demo_engineering.py
       - name: Verify retained synthetic model evidence
         run: python3 scripts/verify_eval_evidence.py --run evals/results/2026-11-25-finals-01
+      - name: Verify anonymous retrospective counts
+        run: python3 scripts/retrospective_report.py --input data/retrospective/cases.json --check data/retrospective/summary.json
       # Paid/authenticated model runs are deliberate local actions, never PR hooks.

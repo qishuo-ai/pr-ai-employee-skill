@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "study_type": "retrospective",
+  "measurement": "historical_business_evidence_counts_not_observed_shadow_performance",
+  "source_verification": "maintainer_private_evidence_not_independently_verified",
+  "externally_independently_verified": false,
+  "case_count": 4,
+  "episode_count": 7,
+  "cases_with_episodes": 2,
+  "receipt_counts": {
+    "request_seen": {
+      "confirmed": 6,
+      "not_seen": 0,
+      "unknown": 1
+    },
+    "submission_seen": {
+      "confirmed": 7,
+      "not_seen": 0,
+      "unknown": 0
+    },
+    "receipt_acknowledged": {
+      "confirmed": 4,
+      "not_seen": 0,
+      "unknown": 3
+    }
+  },
+  "by_case": [
+    {
+      "case_id": "case-001",
+      "episodes": 0,
+      "receipt_counts": {
+        "request_seen": {
+          "confirmed": 0,
+          "not_seen": 0,
+          "unknown": 0
+        },
+        "submission_seen": {
+          "confirmed": 0,
+          "not_seen": 0,
+          "unknown": 0
+        },
+        "receipt_acknowledged": {
+          "confirmed": 0,
+          "not_seen": 0,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "case_id": "case-002",
+      "episodes": 0,
+      "receipt_counts": {
+        "request_seen": {
+          "confirmed": 0,
+          "not_seen": 0,
+          "unknown": 0
+        },
+        "submission_seen": {
+          "confirmed": 0,
+          "not_seen": 0,
+          "unknown": 0
+        },
+        "receipt_acknowledged": {
+          "confirmed": 0,
+          "not_seen": 0,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "case_id": "case-003",
+      "episodes": 6,
+      "receipt_counts": {
+        "request_seen": {
+          "confirmed": 5,
+          "not_seen": 0,
+          "unknown": 1
+        },
+        "submission_seen": {
+          "confirmed": 6,
+          "not_seen": 0,
+          "unknown": 0
+        },
+        "receipt_acknowledged": {
+          "confirmed": 4,
+          "not_seen": 0,
+          "unknown": 2
+        }
+      }
+    },
+    {
+      "case_id": "case-004",
+      "episodes": 1,
+      "receipt_counts": {
+        "request_seen": {
+          "confirmed": 1,
+          "not_seen": 0,
+          "unknown": 0
+        },
+        "submission_seen": {
+          "confirmed": 1,
+          "not_seen": 0,
+          "unknown": 0
+        },
+        "receipt_acknowledged": {
+          "confirmed": 0,
+          "not_seen": 0,
+          "unknown": 1
+        }
+      }
+    }
+  ],
+  "chat_elapsed": {
+    "measurement": "visible_chat_request_to_submission_span",
+    "unit": "minutes",
+    "is_ai_latency": false,
+    "is_active_human_work_time": false,
+    "measured_episodes": 3,
+    "unknown_episodes": 4,
+    "mean": 282.0,
+    "minimum": 194,
+    "maximum": 415,
+    "observations": [
+      {
+        "episode_id": "episode-003",
+        "minutes": 237
+      },
+      {
+        "episode_id": "episode-005",
+        "minutes": 194
+      },
+      {
+        "episode_id": "episode-006",
+        "minutes": 415
+      }
+    ],
+    "limits": "Chat spans can include queueing, parallel work and waiting; they do not measure generation speed, human labor or time saved."
+  },
+  "quality_accepted": null,
+  "quality_metrics": {
+    "ai_latency_ms": null,
+    "first_pass_rate": null,
+    "mean_edit_distance": null,
+    "risk_miss_rate": null
+  },
+  "contributes_to_observed_shadow_metrics": false,
+  "limitations": [
+    "Evidence summaries and attribution are supplied by the maintainer; private originals are not inspected or independently certified by this tool.",
+    "A submitted file or receipt acknowledgement is not quality acceptance, first-pass success or a verified risk judgment.",
+    "Unknown fields remain unknown; historical records are never pooled with synthetic evaluations or observed Shadow events.",
+    "Chat elapsed time is not model latency, active human work time or measured time saved.",
+    "Duplicate IDs are rejected. The maintainer must assign stable IDs to prevent the same underlying task being renamed and recounted.",
+    "Structural pointer checks do not prove anonymization; names, brands, project clues and indirect identifiers require maintainer review."
+  ]
+}

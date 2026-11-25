@@ -2,9 +2,9 @@
 
 **v1.2.0 · 2026-11-25 · PR Agent｜公关智能员工**
 
-The reference run completed **56 real Codex calls across 28 synthetic paired scenarios**, with all calls returning valid structured outputs. **89 offline tests passed.** These are separate from human PR-quality grading and real customer deployment, neither of which has been completed by this update.
+The reference run completed **56 real Codex calls across 28 synthetic paired scenarios**, with all calls returning valid structured outputs. **89 offline tests passed at the original evidence freeze; the latest suite passes 105 tests, including 16 retrospective-evidence checks.** These are separate from human PR-quality grading and real customer deployment, neither of which has been completed by this update.
 
-本次完成 28 个合成场景、56 次真实模型调用，以及 89 项离线测试。历史 **38.7/95.7** 及其三组分数仍为示意性材料，不能作为独立实验结果；本报告没有把它们当基线，也没有虚构人工分数或客户成效。
+原始运行完成 28 个合成场景、56 次真实模型调用与 89 项离线测试；加入历史证据统计后，最新共 105 项测试通过，其中 16 项验证回溯口径与导出边界。历史 **38.7/95.7** 及其三组分数仍为示意性材料，不能作为独立实验结果；本报告没有把它们当基线，也没有虚构人工分数或客户成效。
 
 ## Actual model run / 真实运行
 
@@ -52,6 +52,10 @@ The Skill arm did not match all frozen checks on **F16, F18, F19, F21, F22, F23,
 
 [Full offline test output](../evals/results/2026-11-25-engineering/unittest.txt) · [Gateway demo output](../evals/results/2026-11-25-engineering/gateway-demo.json) · [Evidence verification](../evals/results/2026-11-25-engineering/evidence-verification.json)
 
+The following table describes the original frozen 89-test run; its archived output is unchanged. The later retrospective module adds 16 tests, and the current complete suite passes **105/105**. CI also recomputes the [historical summary](../data/retrospective/summary.json).
+
+下表为原始冻结运行，历史日志不改写；新增16项后全套105项通过。
+
 | Test group | Passed |
 |---|---:|
 | Gateway, overlay and strict schemas | 27 |
@@ -81,6 +85,7 @@ python3 scripts/validate-role-library.py
 python3 -m unittest discover -s tests -v
 python3 scripts/demo_engineering.py
 python3 scripts/verify_eval_evidence.py --run evals/results/2026-11-25-finals-01
+python3 scripts/retrospective_report.py --check data/retrospective/summary.json
 ```
 
 The verifier checks hashes, schedules, prompts, event/final-response consistency and recomputes checks and summary without executing archived code or calling a model. Local hashes prove internal consistency, not independent provider authenticity. Redacted original metadata needs the private `--source` path to verify its source digest.
@@ -89,4 +94,4 @@ At least two real independent humans must complete the [rubric](../evals/RUBRIC.
 
 The runtime is a reference library with a local delivery simulation, not a deployed messaging system or OS sandbox. Host identity, key custody, enforced adapter routing, external audit anchoring and real-world idempotency remain integration work. Whole-database rollback and a compromised process/key owner are outside the local guarantees. Semantic facts still require sources and human review.
 
-Only public repository files and wholly synthetic fixtures were used. The private `qishuo-pr-brain` and real customer materials were not loaded or published. The remaining evidence work is independent human evaluation and an authorized private Shadow pilot, not another invented score.
+The model run described above used only public repository files and wholly synthetic fixtures. A later, separately authorized addition publishes [four anonymous retrospective workstreams](REAL-WORLD-EVIDENCE.md), including seven delivery episodes, four receipt acknowledgements and three chat spans. Private customer originals were inspected for that casebook but are not published; they were never added to the model run. The private `qishuo-pr-brain` remains untouched. Independent human evaluation and a prospective private Shadow pilot are still outstanding; retrospective records do not supply those scores.

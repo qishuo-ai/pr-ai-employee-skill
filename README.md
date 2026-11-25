@@ -14,6 +14,7 @@ PR Agent is an open-source Skill for public relations, brand communications, aut
 - **Reproducible A/B runner:** same requested model/settings/task/response contract, separate sessions, randomized scheduling, frozen prompts and source code, actual outputs, raw event logs and explicit failed attempts.
 - **Separate human judgment:** deterministic contract checks do not stand in for a six-dimension blinded human rubric. Human ratings remain pending until real independent reviewers submit them.
 - **Reference execution gateway:** deny-by-default dispatch, strict schemas, client authorization before loading overlays, expiring single-use approval bound to exact action/content/session, and authenticated transactional audit.
+- **Anonymized real-work evidence:** four retrospective workstreams and seven extracted delivery episodes, with receipt counts kept separate from quality acceptance. [Cases and reproducible counts](docs/REAL-WORLD-EVIDENCE.md).
 - **Shadow metrics:** exact Unicode edit distance, human first-pass acceptance, risk misses and AI/reviewer latency, with missing-data denominators and synthetic/observed groups kept separate.
 
 The historical **38.7/95.7** and **42/94, 35/97, 39/96** scores are illustrative, not independently verified measurements. They are not a baseline, target or result of this release. Synthetic demonstrations do not establish real client deployment performance.
@@ -76,7 +77,7 @@ The gateway is a reference library, not an operating-system sandbox. Host authen
 
 Read [actual validation](docs/VALIDATION.md) for the precise tested revision, CLI/model request, run coverage, observed failures and limitations. Code tests, deterministic model checks, independent human ratings and real deployment metrics are separate evidence classes.
 
-No private `qishuo-pr-brain` files, customer conversations, contracts, commercial terms, credentials or personal data are required by this repository. Public fixtures are wholly synthetic. Real client records must never be committed here. Public raw A/B outputs can weaken later blinding; reviewers should use only their private packet until ratings are locked.
+No private `qishuo-pr-brain` files, customer conversations, contracts, commercial terms, credentials or personal data are required by this repository. Evaluation fixtures are wholly synthetic. Raw client records must never be committed here. Separately authorized, generalized historical text summaries live in `data/retrospective/`; their evidence and identity mapping stay private, and their counts are not prospective Shadow scores. Public raw A/B outputs can weaken later blinding; reviewers should use only their private packet until ratings are locked.
 
 ## Repository
 

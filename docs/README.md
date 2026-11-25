@@ -5,6 +5,7 @@
 - [执行门禁 / Engineering](ENGINEERING.md)
 - [评测协议 / Evaluation](../evals/README.md)
 - [Shadow 指标 / Metrics](SHADOW-METRICS.md)
+- [匿名真实业务历史证据 / Retrospective casebook](REAL-WORLD-EVIDENCE.md)
 
 - [完整中文说明](../README.zh-CN.md)
 - [5分钟快速开始](QUICKSTART.zh-CN.md)
