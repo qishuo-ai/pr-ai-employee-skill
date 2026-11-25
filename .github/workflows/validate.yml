@@ -1,0 +1,22 @@
+name: Validate skill and reference runtime
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Validate release and role library
+        run: |
+          python3 scripts/check_release.py
+          python3 scripts/validate-role-library.py
+      - name: Test engineering controls and metrics
+        run: python3 -m unittest discover -s tests -v
+      - name: Run synthetic engineering demonstration
+        run: python3 scripts/demo_engineering.py
+      - name: Verify retained synthetic model evidence
+        run: python3 scripts/verify_eval_evidence.py --run evals/results/2026-11-25-finals-01
+      # Paid/authenticated model runs are deliberate local actions, never PR hooks.

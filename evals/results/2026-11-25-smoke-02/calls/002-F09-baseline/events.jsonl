@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a2124e-af65-73a0-bf1f-c375cfd41cc6"}
+{"type":"turn.started"}
+{"type":"error","message":"{\"type\":\"error\",\"status\":400,\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.\",\"code\":\"model_not_found\",\"subreason\":\"model_not_in_accessible_catalog\"}}"}
+{"type":"turn.failed","error":{"message":"{\"type\":\"error\",\"status\":400,\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.\",\"code\":\"model_not_found\",\"subreason\":\"model_not_in_accessible_catalog\"}}"}}

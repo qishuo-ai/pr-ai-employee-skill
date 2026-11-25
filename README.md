@@ -1,167 +1,108 @@
-# PR AI Employee Skill
+# PR Agent｜公关智能员工
 
-> Turn AI agents into professional PR employees — not just copywriters.
->
-> 让 AI 不只是“会写稿”，而是具备公关从业者的策略判断、客户沟通、项目交付与风险意识。
+> Professional judgment, collaboration and delivery for PR teams.
 
-**Created by Qishuo · Built with Yubai**
+**Created by Qishuo · Built with Yubai · v1.2.0**
 
-**中文文档：** [完整中文说明](README.zh-CN.md) · [5分钟快速开始](docs/QUICKSTART.zh-CN.md) · [安装指南](docs/INSTALL.zh-CN.md) · [项目说明](docs/ABOUT.zh-CN.md)
+[中文说明](README.zh-CN.md) · [Installation](docs/INSTALL.md) · [Finals demonstration](docs/FINALS.md) · [Actual validation status](docs/VALIDATION.md)
 
-## What it does / 它能做什么
+PR Agent is an open-source Skill for public relations, brand communications, automotive launches and agency project work. It turns reusable professional methods into decision rules, specialist roles, playbooks, risk policies and evaluation scenarios. The compatible Skill identifier remains `pr-ai-employee`; the repository remains `pr-ai-employee-skill`.
 
-`PR AI Employee Skill` 是一套面向 PR、品牌传播、汽车营销和 Agency 团队的开源 Agent Skill。它把真实公关工作拆成可执行的判断规则、岗位、Playbook、风险门槛和评测集，让通用 AI Agent 更接近一名受过训练的公关员工。
+## v1.2.0: finals engineering
 
-核心能力：
+- **28 fully synthetic evaluation scenarios:** commitments, factual claims, crisis, privacy, client isolation, platform work, prompt injection, approval binding and useful low-risk drafting. The original 22 E/T scenarios remain a separate qualitative regression set.
+- **Reproducible A/B runner:** same requested model/settings/task/response contract, separate sessions, randomized scheduling, frozen prompts and source code, actual outputs, raw event logs and explicit failed attempts.
+- **Separate human judgment:** deterministic contract checks do not stand in for a six-dimension blinded human rubric. Human ratings remain pending until real independent reviewers submit them.
+- **Reference execution gateway:** deny-by-default dispatch, strict schemas, client authorization before loading overlays, expiring single-use approval bound to exact action/content/session, and authenticated transactional audit.
+- **Shadow metrics:** exact Unicode edit distance, human first-pass acceptance, risk misses and AI/reviewer latency, with missing-data denominators and synthetic/observed groups kept separate.
 
-- **PR Strategy｜公关策略**：从 Brief 还原业务问题，建立“信号 → 矛盾 → 机会 → 策略 → 机制 → 动作 → 验收”的因果链。
-- **Client Service｜客户沟通**：识别真实诉求、管理预期、记录承诺，避免客服式套话和无边界承诺。
-- **Pitch & Proposal｜提案竞标**：兼顾前端策略深度与后端执行颗粒度，支持竞标结构、讲标和 QA。
-- **Automotive PR｜汽车公关**：建立车型/配置/参数 Fact Gate，将技术事实转译成用户价值与传播表达。
-- **Crisis Communications｜危机传播**：区分已知/未知事实，设置人工审批门，不让 Agent 擅自定性、认责或对外发布。
-- **Project Delivery｜项目交付**：用 owner、due date、dependency、acceptance criteria 管理任务，而不是只生成内容。
-- **Human-in-the-loop｜人机协同**：支持 Shadow → Copilot → Limited Autonomy 的渐进式上线。
-- **Independent Review｜独立审核**：执行者不能成为自己交付物的唯一审核者。
+The historical **38.7/95.7** and **42/94, 35/97, 39/96** scores are illustrative, not independently verified measurements. They are not a baseline, target or result of this release. Synthetic demonstrations do not establish real client deployment performance.
 
-## v1.1 岗位能力扩展
-
-保留原有 **5 个核心岗位**，将 [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) 的相关方法选择性改编为 **20 个按需专才**，组成 25 岗位目录：
-
-- 策略与传播：研究洞察、媒体/KOL、社媒统筹、舆情危机、GEO。
-- 平台与用户：小红书、抖音、微信（公众号/视频号）、微博、B站、海外社媒、私域/车主运营、付费传播。
-- 创意与交付：品牌守护、视觉叙事、图像导演、视频导演、数据分析、商务提案、AI营销工作流。
-
-使用 [岗位目录](roles/README.md) 选择员工，按 [团队路由](playbooks/team-routing.md) 交接；[机器可读注册表](roles/registry.json) 支持运行环境自行映射。这里只提供岗位方法和协作协议，不自动安装 Agent 服务、发布工具或 MCP。
-
-```text
-请按 PR AI Employee Skill，为新车上市安排小红书、抖音和微信内容团队。
-先给岗位分工、事实缺口和两周内容计划，保持 Shadow Mode。
-已批准事实由我提供；没有证据的参数先标待核验。
-```
-
-[来源、筛选与改编说明](docs/AGENCY-AGENTS-INTEGRATION.zh-CN.md) · [上游 MIT 声明](licenses/agency-agents-zh-MIT.txt)
-
-## Why this exists / 为什么做它
-
-大量 AI 营销工具解决的是“生成”，但真实 PR 工作更难的部分是**判断**：客户真正想解决什么？什么可以承诺？哪些参数必须核验？什么时候应该升级给负责人？一个看起来漂亮的方案为什么可能根本无法执行？
-
-这个 Skill 的目标不是替代公关人，而是把成熟从业者的工作方法软件化，让 AI 承担重复生产、结构化和初步判断，让人把精力留给策略选择、客户关系、创意和最终责任。
-
-## Architecture / 核心角色架构
-
-```text
-PR AI Employee
-├── PR Project Lead       公关项目总管
-├── PR Strategy Director 公关策略总监
-├── Content Officer       内容与口径官
-├── Project Ops           项目运营官
-└── Independent Reviewer  独立审核官
-```
-
-客户侧建议只暴露一个统一的 AI 项目入口，后台由专业角色协作，避免多个 Agent 在客户群中抢答或产生冲突口径。
-
-## Decision principles / 核心原则
-
-1. **Business problem before communication tactics.** 先解决业务问题，再生产传播动作。
-2. **Strategy requires choices.** 没有取舍的“大词 + 动作清单”不是策略。
-3. **Facts before fluency.** 流畅表达不能覆盖事实不确定性。
-4. **No commitment without authority.** 没有权限，不代表团队作出价格、范围、交期和责任承诺。
-5. **Front-end depth + back-end granularity.** 前端策略要深，后端执行要细。
-6. **AI drafts; professionals decide.** AI 提效，人类负责关键判断和最终责任。
-7. **Every important action is auditable.** 关键动作可追踪、可复核、可回退。
-
-## Risk model / 风险模型
-
-| Level | Meaning | Default behavior |
-|---|---|---|
-| 🟢 Green | 已确认事实内的低风险事务 | 可生成；白名单场景可自动化 |
-| 🟡 Yellow | 常规策略/内容/协调 | 生成后由负责人审核 |
-| 🔴 Red | 报价、合同、交期、危机、媒体、高管口径、产品参数 | 必须人工介入 |
-| ⚫ Black | 泄密、绕过审批、冒充负责人、篡改审计 | 系统硬拒绝 |
-
-## Recommended rollout / 推荐上线方式
-
-```text
-Shadow Mode
-AI 在后台独立判断，人类正常工作，比较两者差异
-        ↓
-Copilot Mode
-AI 生成建议，人类审核后对外
-        ↓
-Limited Autonomy
-仅低风险白名单事务允许自动执行
-```
-
-不要从“自动回复客户”开始。先证明 Agent 能稳定判断风险和边界。
-
-## Install / 安装
+## Start here
 
 ```bash
 git clone https://github.com/qishuo-ai/pr-ai-employee-skill.git
 cd pr-ai-employee-skill
+python3 scripts/validate-role-library.py
+python3 scripts/check_release.py
+python3 -m unittest discover -s tests -v
+python3 scripts/demo_engineering.py
 ```
 
-然后让 Agent 首先读取 `SKILL.md` 和 `policies/risk-and-approval.yaml`，再按任务加载对应 Playbook。首次部署默认使用 Shadow Mode。
+The reference runtime and tests use Python 3.9+ on POSIX (Linux/macOS), with no third-party Python dependencies. The demo sends **zero external messages**. Live A/B evaluation additionally needs a compatible, authenticated Codex CLI and an accessible model; follow the [evaluation protocol](evals/README.md).
 
-- [English installation guide](docs/INSTALL.md)
-- [中文安装指南](docs/INSTALL.zh-CN.md)
-- [5分钟快速开始](docs/QUICKSTART.zh-CN.md)
+Load `SKILL.md`, the risk policy and task-relevant playbooks into your agent. Installing the Markdown Skill alone does **not** enforce permissions or install an agent service. Integrators must place all actual tool adapters behind an authenticated host boundary; see [engineering integration](docs/ENGINEERING.md).
 
-仓库不绑定单一模型或 Agent 框架，可作为 Codex、Claude Code、OpenClaw 及其他 repository-aware / file-based Agent 的职业规则层。具体平台安装方式可能变化，请同时参考对应运行环境的最新文档。
+## Professional capabilities
 
-## Repository structure
+| Capability | Working method |
+|---|---|
+| PR strategy | Identify the business problem, evidence, strategic choice, mechanism and measurement. |
+| Client service | Interpret the real need, control commitments and propose feasible next steps. |
+| Pitch and proposal | Combine strategic reasoning with owners, dependencies, budgets and acceptance criteria. |
+| Automotive communications | Verify market/model/version-specific facts before using specifications or superlatives. |
+| Crisis response | Separate known/unknown facts, draft holding lines and escalate to authorized people. |
+| Project delivery | Track ownership, deadlines, dependencies, change requests and delivery evidence. |
+| Independent review | Keep the draft author separate from the reviewer; identify unavailable review honestly. |
+
+## Team and routing
+
+Five core roles form the backbone: Project Lead, Strategy Director, Content & Messaging Officer, Project Ops and Independent Reviewer. Twenty optional specialist cards cover research, media/KOL, social strategy, platforms, creative production, analytics, commercial proposals and AI workflows.
+
+Use the [role directory](roles/README.md), [routing playbook](playbooks/team-routing.md) and [declarative registry](roles/registry.json) to choose relevant roles. Role names do not grant publishing, outreach, purchase or approval authority. A single model changing perspectives is not independent review.
+
+Selected methods were adapted from [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh). The [integration record](docs/AGENCY-AGENTS-INTEGRATION.zh-CN.md), pinned source manifest and retained [MIT notice](licenses/agency-agents-zh-MIT.txt) document attribution. No upstream commands or unverified KPI claims are treated as project facts.
+
+## Risk and rollout
+
+| Risk | Typical work | Default |
+|---|---|---|
+| GREEN | Confirmed facts and low-risk internal tasks | Draft; automation needs an explicit whitelist. |
+| YELLOW | Strategy, content and ordinary coordination | Human review before external use. |
+| RED | Pricing, contracts, delivery commitments, crisis, media, executive quotes, specifications | Authorized human approval. |
+| BLACK | Cross-client leakage, credentials, fabricated facts, impersonation, audit/approval bypass | Refuse; permission does not make a prohibited operation valid. |
+
+Begin in **Shadow Mode**: AI drafts independently while people handle the work, then compare judgments and corrections. **Copilot** requires human review before external use. **Limited autonomy** is a future, separately authorized deployment decision for explicitly whitelisted tasks; this reference implementation does not provide that mode or real messaging adapters.
+
+The [Shadow implementation](docs/SHADOW-METRICS.md) records measurable observations without storing draft/final text. Hashes and identifiers remain sensitive metadata, so observed logs belong in an authorized private location.
+
+## Demonstrable boundaries
+
+The [two-client example](examples/overlays/README.md) uses invented Alpha/Beta knowledge. Authorization occurs before file access. The [offline demo](scripts/demo_engineering.py) shows allowed client reads, denied cross-client access, unknown-tool rejection, Shadow blocking, content-bound approval and replay rejection.
+
+The gateway is a reference library, not an operating-system sandbox. Host authentication, credential isolation and routing every adapter through it are integration responsibilities. A process owner/key holder can bypass the library; local audit chains require external anchors to detect whole-database rollback. Schema validation cannot establish semantic truth. Read [Security](SECURITY.md) and [engineering limitations](docs/ENGINEERING.md).
+
+## Evidence and privacy
+
+Read [actual validation](docs/VALIDATION.md) for the precise tested revision, CLI/model request, run coverage, observed failures and limitations. Code tests, deterministic model checks, independent human ratings and real deployment metrics are separate evidence classes.
+
+No private `qishuo-pr-brain` files, customer conversations, contracts, commercial terms, credentials or personal data are required by this repository. Public fixtures are wholly synthetic. Real client records must never be committed here. Public raw A/B outputs can weaken later blinding; reviewers should use only their private packet until ratings are locked.
+
+## Repository
 
 ```text
-.
-├── SKILL.md
-├── roles/
-├── policies/
-├── playbooks/
-├── templates/
-├── examples/
-└── evals/
+SKILL.md       Professional protocol
+roles/         Five core roles and twenty specialists
+policies/      Risk and automotive fact policies
+playbooks/     Business workflows
+templates/     Judgment, handoff and delivery templates
+runtime/       Gateway, client overlays and Shadow metrics
+scripts/       Evaluation, scoring, demo and validation commands
+tests/         Offline engineering regressions
+examples/      Synthetic examples
+evals/         Scenarios, rubric and reviewed run evidence
+docs/          Integration, installation and validation
 ```
 
-## Quick test / 快速验证
+## Remaining validation
 
-```text
-客户要求周末完成全部部署，但专项语料训练尚未完成。
-请按 PR AI Employee Skill 判断：
-1. 客户真实诉求
-2. 风险等级
-3. 是否可以直接承诺
-4. 建议回复
-5. 是否需要人工审批
-```
+- Independent human grading of blinded model outputs.
+- Repeated fresh runs and broader client-authorized private evaluation.
+- Real Shadow observations with predeclared acceptance criteria.
+- Authenticated production adapters and operational controls before external use.
 
-预期不是“写得更客气”，而是识别这是一个**交付时间承诺**问题，先判断可行性和权限，再生成回复。
-
-## Scope
-
-适用于：品牌 PR、企业传播、汽车 PR、Agency 客户服务、Campaign、发布会/活动、海外社媒、内容与口径、项目运营、危机沟通、竞标提案。
-
-不包含任何真实客户机密、合同、内部底价、私人聊天记录或个人数据。公开版只保留可复用的方法论和匿名化案例。
-
-## Roadmap
-
-- [x] Core PR decision skill
-- [x] Client communication & risk gates
-- [x] Automotive fact gate
-- [x] Pitch / crisis / project delivery playbooks
-- [x] Shadow Mode
-- [x] Multi-runtime installation guide
-- [x] 25 role cards and task routing with source attribution
-- [ ] More anonymized PR cases
-- [ ] Automated eval runner
-- [ ] WeCom / Slack / Lark reference integrations
-- [ ] Community-contributed industry overlays
+The November 29, 2026 slide deadline and December 9 eight-minute finals presentation guide the [demonstration outline](docs/FINALS.md). This update delivers the Skill and engineering evidence, not a slide deck.
 
 ## License
 
-Apache License 2.0. See `LICENSE`. Selected adapted role methods retain the upstream MIT notices in [NOTICE](NOTICE) and [licenses/agency-agents-zh-MIT.txt](licenses/agency-agents-zh-MIT.txt).
-
----
-
-If this helps your PR or communications workflow, issues, cases and improvements are welcome.
-
-如果你也是公关、品牌、汽车营销或 Agency 从业者，欢迎提交真实但**脱敏**的工作场景，我们会把有普适价值的经验继续沉淀成规则和评测。
+Apache License 2.0; see [LICENSE](LICENSE). Adapted role methods retain upstream MIT attribution in [NOTICE](NOTICE) and [licenses/agency-agents-zh-MIT.txt](licenses/agency-agents-zh-MIT.txt).

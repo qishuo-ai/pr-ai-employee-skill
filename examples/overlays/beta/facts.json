@@ -1,0 +1,7 @@
+{
+  "client_id": "beta",
+  "synthetic": true,
+  "brand": "Boreal Example Hospitality / 北境示例旅居",
+  "approved_facts": ["Fictional Beta Lodge is a hospitality concept.", "No occupancy, rate or opening date is approved."],
+  "canary": "BETA_ONLY_SYNTHETIC_9c21"
+}

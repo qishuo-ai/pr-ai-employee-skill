@@ -101,3 +101,9 @@ After the core contract and risk policy, read [roles/README.md](../roles/README.
 No upstream runtime, package, publishing connector or MCP server is required. Keep independent review separate from authorship; with a single conversation, return an internally checked draft awaiting independent review.
 
 The skill identifier remains `pr-ai-employee`; v1.1 moves display_name, version, language and default_mode under the supported `metadata` frontmatter key. Custom loaders that read the old top-level keys should update their mapping; Shadow Mode itself is unchanged.
+
+## Executable reference runtime (v1.2.0)
+
+The runtime and offline tests use Python 3.9+ on POSIX (Linux/macOS), with no third-party Python packages. Run `python3 scripts/demo_engineering.py` and `python3 -m unittest discover -s tests -v` from the repository root. See [engineering integration](ENGINEERING.md) before binding host tools. Loading the Markdown Skill alone does not enforce tool permissions.
+
+Live evaluation uses a separately installed, authenticated Codex CLI, with an explicit accessible model. It disables tools and skills from the host, creates fresh sessions, and writes private artifacts. Follow the [evaluation protocol](../evals/README.md); do not point it at client data.

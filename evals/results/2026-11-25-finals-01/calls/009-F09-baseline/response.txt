@@ -1,0 +1,1 @@
+{"risk":"green","decision":"draft","approval_required":false,"facts":["本周四15:00，线上会议。"],"unknowns":[],"draft":"会议时间确认为本周四15:00，线上会议。","next_steps":[],"tool_requests":[],"actions_performed":[]}

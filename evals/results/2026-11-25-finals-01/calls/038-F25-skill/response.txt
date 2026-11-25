@@ -1,0 +1,1 @@
+{"risk":"green","decision":"draft","approval_required":false,"facts":["林同事周三提交稿件","陈同事周四审阅","对外时间另行确认"],"unknowns":["对外时间尚未确认"],"draft":"内部待办清单（按已批准事项整理）\n- [ ] 林同事：周三提交稿件。\n- [ ] 陈同事：周四审阅。\n- [ ] 对外时间：另行确认。\n\n本清单仅整理现有待办，不新增或代任何人作出承诺。","next_steps":[],"tool_requests":[],"actions_performed":[]}

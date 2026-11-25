@@ -1,0 +1,12 @@
+[
+  {
+    "scenario_id": "F09",
+    "arm": "skill",
+    "call_id": "001-F09-skill"
+  },
+  {
+    "scenario_id": "F09",
+    "arm": "baseline",
+    "call_id": "002-F09-baseline"
+  }
+]

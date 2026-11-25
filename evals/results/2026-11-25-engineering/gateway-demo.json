@@ -1,0 +1,49 @@
+{
+  "synthetic": true,
+  "external_messages_sent": 0,
+  "checks": [
+    {
+      "case": "authorized_alpha_read",
+      "outcome": "allowed"
+    },
+    {
+      "case": "cross_client_read",
+      "outcome": "denied",
+      "reason": "cross-client request denied"
+    },
+    {
+      "case": "unknown_tool",
+      "outcome": "denied",
+      "reason": "request schema denied"
+    },
+    {
+      "case": "shadow_delivery",
+      "outcome": "denied",
+      "reason": "shadow forbids external effects"
+    },
+    {
+      "case": "missing_approval",
+      "outcome": "denied",
+      "reason": "valid unexpired unused bound approval required"
+    },
+    {
+      "case": "changed_draft",
+      "outcome": "denied",
+      "reason": "valid unexpired unused bound approval required"
+    },
+    {
+      "case": "bound_approved_delivery",
+      "outcome": "simulated_only"
+    },
+    {
+      "case": "approval_replay",
+      "outcome": "denied",
+      "reason": "valid unexpired unused bound approval required"
+    },
+    {
+      "case": "authorized_beta_read",
+      "outcome": "allowed"
+    }
+  ],
+  "verified_audit_events": 15
+}

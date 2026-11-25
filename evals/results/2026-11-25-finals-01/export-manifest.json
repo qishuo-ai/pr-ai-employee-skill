@@ -1,0 +1,1851 @@
+{
+  "synthetic_review_attested": true,
+  "files": [
+    {
+      "path": "calls/001-F05-skill/events.jsonl",
+      "source_sha256": "7fd14ae3c625acd7f933d39a3136026199026acd61c939f3f66024eecce043ed",
+      "export_sha256": "7fd14ae3c625acd7f933d39a3136026199026acd61c939f3f66024eecce043ed",
+      "redactions": []
+    },
+    {
+      "path": "calls/001-F05-skill/prompt.txt",
+      "source_sha256": "196039a0f6f8800b7c0f12ca75dd72e48036ca078f98256867f06b143caa52c0",
+      "export_sha256": "196039a0f6f8800b7c0f12ca75dd72e48036ca078f98256867f06b143caa52c0",
+      "redactions": []
+    },
+    {
+      "path": "calls/001-F05-skill/response.txt",
+      "source_sha256": "096b56d98e02d054a9f47f32e442a486d85a3954d1741f6f13852d0751874497",
+      "export_sha256": "096b56d98e02d054a9f47f32e442a486d85a3954d1741f6f13852d0751874497",
+      "redactions": []
+    },
+    {
+      "path": "calls/001-F05-skill/result.json",
+      "source_sha256": "3a7402844338d43995acb75a16cf6eb923583ab475bf19e21697b00bb97b1dac",
+      "export_sha256": "251abcb7b94567788a80c11af3152cfd31c273933a10ede6fa8c373ba83e6b85",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/001-F05-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F23-baseline/events.jsonl",
+      "source_sha256": "47865490fb95734941bf0168ca2a2077b3be369fbbb069dcaa1a85d35a9920ae",
+      "export_sha256": "47865490fb95734941bf0168ca2a2077b3be369fbbb069dcaa1a85d35a9920ae",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F23-baseline/prompt.txt",
+      "source_sha256": "bee9fe0056a6ae034b0daab03533cf69ad75d779dc9ba7695204698315001271",
+      "export_sha256": "bee9fe0056a6ae034b0daab03533cf69ad75d779dc9ba7695204698315001271",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F23-baseline/response.txt",
+      "source_sha256": "c2c0fdf250831a7e550965359baeadde07933501b13d1f42da79a5ef0b8c6fdb",
+      "export_sha256": "c2c0fdf250831a7e550965359baeadde07933501b13d1f42da79a5ef0b8c6fdb",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F23-baseline/result.json",
+      "source_sha256": "18a21e1f651eef8d3afdc427f022cc6b7fd79b2111d193dd24dc5d0eb58b5732",
+      "export_sha256": "28365c05fb3761ba57fffdfc4146846c43d7de93b9a22f16ebdba46e221a267e",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/002-F23-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/003-F25-baseline/events.jsonl",
+      "source_sha256": "f78d774852cf9f75c2e04ec1b96634b53f5b3106fd9a947316ae3b8d308fb0ea",
+      "export_sha256": "f78d774852cf9f75c2e04ec1b96634b53f5b3106fd9a947316ae3b8d308fb0ea",
+      "redactions": []
+    },
+    {
+      "path": "calls/003-F25-baseline/prompt.txt",
+      "source_sha256": "4cff3ce819fc7f313a5a5fa51859add49d004a50252e64006febfabb8324d80c",
+      "export_sha256": "4cff3ce819fc7f313a5a5fa51859add49d004a50252e64006febfabb8324d80c",
+      "redactions": []
+    },
+    {
+      "path": "calls/003-F25-baseline/response.txt",
+      "source_sha256": "01628300d851f3cec66faeb7394e3242cfefbd193d6bd3233bf0b25de4136ed9",
+      "export_sha256": "01628300d851f3cec66faeb7394e3242cfefbd193d6bd3233bf0b25de4136ed9",
+      "redactions": []
+    },
+    {
+      "path": "calls/003-F25-baseline/result.json",
+      "source_sha256": "7b2483da99d98bb46ef3d721f6395c6d7e06d9e4b53d72ffd72029950832f08b",
+      "export_sha256": "f8073f573134557e6e0c987e24c387cff4099a1c2fea8db4d1961c221d04138e",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/003-F25-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/004-F17-baseline/events.jsonl",
+      "source_sha256": "c2f88cee350fb994534c083d103e514e4d376621daacb97ae733ccf30a7cf884",
+      "export_sha256": "c2f88cee350fb994534c083d103e514e4d376621daacb97ae733ccf30a7cf884",
+      "redactions": []
+    },
+    {
+      "path": "calls/004-F17-baseline/prompt.txt",
+      "source_sha256": "b0dcc8a611a1fedf3dc30f201956936e08935dc94d56af3b3cec4194c4dace1f",
+      "export_sha256": "b0dcc8a611a1fedf3dc30f201956936e08935dc94d56af3b3cec4194c4dace1f",
+      "redactions": []
+    },
+    {
+      "path": "calls/004-F17-baseline/response.txt",
+      "source_sha256": "97a420524e5dce8fe02cf9092716483c7b6eff6e2106ed39b3dc6ba413348429",
+      "export_sha256": "97a420524e5dce8fe02cf9092716483c7b6eff6e2106ed39b3dc6ba413348429",
+      "redactions": []
+    },
+    {
+      "path": "calls/004-F17-baseline/result.json",
+      "source_sha256": "966ecd2264ef118676958b633667df7ff585f8f252a64b1d9d891b8452fd3d52",
+      "export_sha256": "02b29886a0ffdca5c5edecb3bf38646bb7c008491822c747a42b46024ede7e58",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/004-F17-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/005-F20-baseline/events.jsonl",
+      "source_sha256": "02969ca72d35df49287cf2bf7c9b5b52f3f7b27c31f09d61a657d583fcf1938f",
+      "export_sha256": "02969ca72d35df49287cf2bf7c9b5b52f3f7b27c31f09d61a657d583fcf1938f",
+      "redactions": []
+    },
+    {
+      "path": "calls/005-F20-baseline/prompt.txt",
+      "source_sha256": "adc8b63f1361c8fd8ee6faff856d135cecdbc98c0a791b2f0d6ae255dc52c468",
+      "export_sha256": "adc8b63f1361c8fd8ee6faff856d135cecdbc98c0a791b2f0d6ae255dc52c468",
+      "redactions": []
+    },
+    {
+      "path": "calls/005-F20-baseline/response.txt",
+      "source_sha256": "17256e99720b06dddad6f19ae824d85e34b80d7abbf151f2b73bd08f1c969fef",
+      "export_sha256": "17256e99720b06dddad6f19ae824d85e34b80d7abbf151f2b73bd08f1c969fef",
+      "redactions": []
+    },
+    {
+      "path": "calls/005-F20-baseline/result.json",
+      "source_sha256": "fc0ad869012b24f3bc4e2495d3029436b2f348c9f13ea5a4d1202e19155d0c2f",
+      "export_sha256": "1b7e6dedf45130446903b6fc114c4d2c707da438bd884da4ff26cd067af53886",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/005-F20-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/006-F12-skill/events.jsonl",
+      "source_sha256": "30683481a0205b8cbd2ad5a8c9f1ac6d3a732e1c78c660c73dad5db16f593003",
+      "export_sha256": "30683481a0205b8cbd2ad5a8c9f1ac6d3a732e1c78c660c73dad5db16f593003",
+      "redactions": []
+    },
+    {
+      "path": "calls/006-F12-skill/prompt.txt",
+      "source_sha256": "d8b1535d7aa152ce90bf59b2a30f1feda8936d01a1b282c0e7efbf7e358ad705",
+      "export_sha256": "d8b1535d7aa152ce90bf59b2a30f1feda8936d01a1b282c0e7efbf7e358ad705",
+      "redactions": []
+    },
+    {
+      "path": "calls/006-F12-skill/response.txt",
+      "source_sha256": "d66f2ef8a0b5f57c67f0647cae0ee3c00c61d4fd81d0d88372e9fb6303f0b48f",
+      "export_sha256": "d66f2ef8a0b5f57c67f0647cae0ee3c00c61d4fd81d0d88372e9fb6303f0b48f",
+      "redactions": []
+    },
+    {
+      "path": "calls/006-F12-skill/result.json",
+      "source_sha256": "f918da728b4c7c6768925aa29216dffa3b23361a3f7c1c415d4152c4cc3e4237",
+      "export_sha256": "de7326cf5ea62a5e2647c43f98b9d0734c94e100b88722ea865cf83b6831f7f2",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/006-F12-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/007-F03-baseline/events.jsonl",
+      "source_sha256": "45c1030afa706eaaf6fe3958230cabb5b928405f4149b00332af079a3f6ab405",
+      "export_sha256": "45c1030afa706eaaf6fe3958230cabb5b928405f4149b00332af079a3f6ab405",
+      "redactions": []
+    },
+    {
+      "path": "calls/007-F03-baseline/prompt.txt",
+      "source_sha256": "7e591b5e91acdae75632fc55147f61b78974ff1ebbf042477a0349fdc387e378",
+      "export_sha256": "7e591b5e91acdae75632fc55147f61b78974ff1ebbf042477a0349fdc387e378",
+      "redactions": []
+    },
+    {
+      "path": "calls/007-F03-baseline/response.txt",
+      "source_sha256": "0988327417b33858e4c2269f573f508a943b2d9b090183d9d0403f54ce84f5fc",
+      "export_sha256": "0988327417b33858e4c2269f573f508a943b2d9b090183d9d0403f54ce84f5fc",
+      "redactions": []
+    },
+    {
+      "path": "calls/007-F03-baseline/result.json",
+      "source_sha256": "dd2556c5027868903d90d7b6cbe91d791fcbabfbbf0e82506f0e4c91fe5be1ef",
+      "export_sha256": "4866b3b66517d16f3606fc6f1661ef4c02686c4b67a5edf0a33c777c2ce52aef",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/007-F03-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/008-F15-skill/events.jsonl",
+      "source_sha256": "8a880a504b6dcdaa0c4587c1697bbe9d872a9a401eadc97566d031a3fe452eb8",
+      "export_sha256": "8a880a504b6dcdaa0c4587c1697bbe9d872a9a401eadc97566d031a3fe452eb8",
+      "redactions": []
+    },
+    {
+      "path": "calls/008-F15-skill/prompt.txt",
+      "source_sha256": "56c38a6ac886f261bef8f924bfa9349c669e595b29b810b74391438f5037e29d",
+      "export_sha256": "56c38a6ac886f261bef8f924bfa9349c669e595b29b810b74391438f5037e29d",
+      "redactions": []
+    },
+    {
+      "path": "calls/008-F15-skill/response.txt",
+      "source_sha256": "202163b5e9254d1a0b93558dd4c7a50c3795bcef88e6596f68bad5b49977da3b",
+      "export_sha256": "202163b5e9254d1a0b93558dd4c7a50c3795bcef88e6596f68bad5b49977da3b",
+      "redactions": []
+    },
+    {
+      "path": "calls/008-F15-skill/result.json",
+      "source_sha256": "e96bd67c69e756cf4ef97ef84d3c22bcbf060bd092678d442dac1d03b3c8e84d",
+      "export_sha256": "1a163d911fc5b52ca208312bbeb3937f42f2fe1c6716354da812b91bceddaa2d",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/008-F15-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/009-F09-baseline/events.jsonl",
+      "source_sha256": "5ff62944df80c24c9366e0f8edfb8536773b610b8eeacf346715f0ee2362b90c",
+      "export_sha256": "5ff62944df80c24c9366e0f8edfb8536773b610b8eeacf346715f0ee2362b90c",
+      "redactions": []
+    },
+    {
+      "path": "calls/009-F09-baseline/prompt.txt",
+      "source_sha256": "ff567cb99ea3d838bb540a3c688ca2e235a3dd59f7b91a84e5e69a97450264bb",
+      "export_sha256": "ff567cb99ea3d838bb540a3c688ca2e235a3dd59f7b91a84e5e69a97450264bb",
+      "redactions": []
+    },
+    {
+      "path": "calls/009-F09-baseline/response.txt",
+      "source_sha256": "fdf0b82fcf8c364f91945e2d496ca95081dea791cd9a9add1f6057512212e729",
+      "export_sha256": "fdf0b82fcf8c364f91945e2d496ca95081dea791cd9a9add1f6057512212e729",
+      "redactions": []
+    },
+    {
+      "path": "calls/009-F09-baseline/result.json",
+      "source_sha256": "7bfda2e3cb0d8bab7e21c67147f8d895017b568b3d686942353c41c4d2d4e97a",
+      "export_sha256": "8a38b5ea65d5c06924a9d8fc0576a41a71f2fd2f2ed099539a98c7890f3642bd",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/009-F09-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/010-F04-baseline/events.jsonl",
+      "source_sha256": "b0764ee6f83aa4088cba79656f8fe9e1cd4692cdd6a929366d9a386eed32b92d",
+      "export_sha256": "b0764ee6f83aa4088cba79656f8fe9e1cd4692cdd6a929366d9a386eed32b92d",
+      "redactions": []
+    },
+    {
+      "path": "calls/010-F04-baseline/prompt.txt",
+      "source_sha256": "8939cd029f5f5fd2017a1a8979a9be849cc8de0243ab3f8573535a7342f70486",
+      "export_sha256": "8939cd029f5f5fd2017a1a8979a9be849cc8de0243ab3f8573535a7342f70486",
+      "redactions": []
+    },
+    {
+      "path": "calls/010-F04-baseline/response.txt",
+      "source_sha256": "7388ab7311815e68c9c7e20abb018264c863711c90ce7fdae1de686b97b73332",
+      "export_sha256": "7388ab7311815e68c9c7e20abb018264c863711c90ce7fdae1de686b97b73332",
+      "redactions": []
+    },
+    {
+      "path": "calls/010-F04-baseline/result.json",
+      "source_sha256": "d076cdc856baa7ca7bd84f486d4f296563be330325a2f9158aad27be518eff8d",
+      "export_sha256": "019cbc1d47756e6aa2f3a4b4d5c4435ed2c18654be1aad0b65fee30f1af4f47b",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/010-F04-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/011-F21-skill/events.jsonl",
+      "source_sha256": "f9e761d8341c1b3cdb52070a96c6d1de3bfe99faa441be1a3bc1d2a2c5365463",
+      "export_sha256": "f9e761d8341c1b3cdb52070a96c6d1de3bfe99faa441be1a3bc1d2a2c5365463",
+      "redactions": []
+    },
+    {
+      "path": "calls/011-F21-skill/prompt.txt",
+      "source_sha256": "073925cb8bbbd1417982b76eb69b6e013f6f0d40cb083fa486820e6636aec10a",
+      "export_sha256": "073925cb8bbbd1417982b76eb69b6e013f6f0d40cb083fa486820e6636aec10a",
+      "redactions": []
+    },
+    {
+      "path": "calls/011-F21-skill/response.txt",
+      "source_sha256": "763d7df7daa442696eeef40f83f48f6cb387501d3c2b229121494381953fd06b",
+      "export_sha256": "763d7df7daa442696eeef40f83f48f6cb387501d3c2b229121494381953fd06b",
+      "redactions": []
+    },
+    {
+      "path": "calls/011-F21-skill/result.json",
+      "source_sha256": "a7ba6b1cf03a365e5a5da62838ecf91c90816f5cecd602f0bc4ebb8d7b08aac2",
+      "export_sha256": "e25b5520dfa76fdbd86916dd2aaa931b4eeda68ca767e5d130a53df67c8d35ed",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/011-F21-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/012-F19-skill/events.jsonl",
+      "source_sha256": "9e2b673102318395c8bd3e5078b6177ec26208854be3b402948bc3afcf5fecc1",
+      "export_sha256": "9e2b673102318395c8bd3e5078b6177ec26208854be3b402948bc3afcf5fecc1",
+      "redactions": []
+    },
+    {
+      "path": "calls/012-F19-skill/prompt.txt",
+      "source_sha256": "35026d06bf32b0353e9719c81f874af2e2c1d5dd55b641bff9899f0b465299bf",
+      "export_sha256": "35026d06bf32b0353e9719c81f874af2e2c1d5dd55b641bff9899f0b465299bf",
+      "redactions": []
+    },
+    {
+      "path": "calls/012-F19-skill/response.txt",
+      "source_sha256": "20c599a074dba8f965991a1d88ec35f08e75875bbf5677d023ff540996d162a4",
+      "export_sha256": "20c599a074dba8f965991a1d88ec35f08e75875bbf5677d023ff540996d162a4",
+      "redactions": []
+    },
+    {
+      "path": "calls/012-F19-skill/result.json",
+      "source_sha256": "152a61132c4fbf70f0774f020bd523186ed8659b1f1cdcf80fa190604a2c4ea9",
+      "export_sha256": "1aa5f3ed22563a39fce09abe8c006af978528a03b0623e085befdb233d65a4b1",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/012-F19-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/013-F14-baseline/events.jsonl",
+      "source_sha256": "4af3cc5657b5df3627b12349319311fe045c37323bc77d8dfbb77a33629df4ed",
+      "export_sha256": "4af3cc5657b5df3627b12349319311fe045c37323bc77d8dfbb77a33629df4ed",
+      "redactions": []
+    },
+    {
+      "path": "calls/013-F14-baseline/prompt.txt",
+      "source_sha256": "ad78a3ad6edc0cdba9385b44112403bb186d91b2abacc5ce0ab83f21205c1dba",
+      "export_sha256": "ad78a3ad6edc0cdba9385b44112403bb186d91b2abacc5ce0ab83f21205c1dba",
+      "redactions": []
+    },
+    {
+      "path": "calls/013-F14-baseline/response.txt",
+      "source_sha256": "e407f503164e1809ce7d7512ac4269f8284f7c3515e4592fb9852ad2a0875ba2",
+      "export_sha256": "e407f503164e1809ce7d7512ac4269f8284f7c3515e4592fb9852ad2a0875ba2",
+      "redactions": []
+    },
+    {
+      "path": "calls/013-F14-baseline/result.json",
+      "source_sha256": "be9ef34120b8e009cbbb001e7c1a25ddb8a9d0dda52f95613ce5da144560fb4b",
+      "export_sha256": "740a0f6e65e743dfdd62cbc096dcfe889d68babd2ca5a2841fb21bdae3560e2d",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/013-F14-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/014-F14-skill/events.jsonl",
+      "source_sha256": "16bfda68eb216e2c7b9cbe881c8a0d85a0c3cb31f41450c803b9c5e7eb416fbe",
+      "export_sha256": "16bfda68eb216e2c7b9cbe881c8a0d85a0c3cb31f41450c803b9c5e7eb416fbe",
+      "redactions": []
+    },
+    {
+      "path": "calls/014-F14-skill/prompt.txt",
+      "source_sha256": "f480b5a5cc34f20799409670f24de56a125a4c6ea4c6f7d46f4fd85fb5030b6a",
+      "export_sha256": "f480b5a5cc34f20799409670f24de56a125a4c6ea4c6f7d46f4fd85fb5030b6a",
+      "redactions": []
+    },
+    {
+      "path": "calls/014-F14-skill/response.txt",
+      "source_sha256": "d8bd1d16750e1e2bd7bcd4da6ab0d01ab971708246cb42a9920d722608189dd3",
+      "export_sha256": "d8bd1d16750e1e2bd7bcd4da6ab0d01ab971708246cb42a9920d722608189dd3",
+      "redactions": []
+    },
+    {
+      "path": "calls/014-F14-skill/result.json",
+      "source_sha256": "1d6261e33fa931aac8e10322a6edd2adbf114026b3845b22d7a61e2ccf2c9b2c",
+      "export_sha256": "aeaeea9123191ed6a84ff04afe7dcabe58123062646264edbc8581206f926bb8",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/014-F14-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/015-F19-baseline/events.jsonl",
+      "source_sha256": "7092057c458212d007329423baeec616fcceb3bbe13bae9be9da6e5e3b4c5407",
+      "export_sha256": "7092057c458212d007329423baeec616fcceb3bbe13bae9be9da6e5e3b4c5407",
+      "redactions": []
+    },
+    {
+      "path": "calls/015-F19-baseline/prompt.txt",
+      "source_sha256": "c378fad17c8536ed122f95b7d4b7a1ad30dd9b5de545777cca9bd91c55c4dd35",
+      "export_sha256": "c378fad17c8536ed122f95b7d4b7a1ad30dd9b5de545777cca9bd91c55c4dd35",
+      "redactions": []
+    },
+    {
+      "path": "calls/015-F19-baseline/response.txt",
+      "source_sha256": "113349c15ed677e794ef8bdb349b3a1c2df73e4c1209274629c8780f0e60ad65",
+      "export_sha256": "113349c15ed677e794ef8bdb349b3a1c2df73e4c1209274629c8780f0e60ad65",
+      "redactions": []
+    },
+    {
+      "path": "calls/015-F19-baseline/result.json",
+      "source_sha256": "0ed21207af2e75beadd0b9ae3395b67829e0ab7d2586bdf4306d6078649d1deb",
+      "export_sha256": "125d9536573c354f1050b695ff49d55f1e0b7bc4ceff4e0bd4f88146790a506f",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/015-F19-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/016-F16-skill/events.jsonl",
+      "source_sha256": "fa52975f254c4f352df73122d42cf6392813d61379c2807681d5f5ef8fbd82ea",
+      "export_sha256": "fa52975f254c4f352df73122d42cf6392813d61379c2807681d5f5ef8fbd82ea",
+      "redactions": []
+    },
+    {
+      "path": "calls/016-F16-skill/prompt.txt",
+      "source_sha256": "35007a50b489746114b5f7aa7ae100b4f3af61772b156b945a14486217fb208e",
+      "export_sha256": "35007a50b489746114b5f7aa7ae100b4f3af61772b156b945a14486217fb208e",
+      "redactions": []
+    },
+    {
+      "path": "calls/016-F16-skill/response.txt",
+      "source_sha256": "baa41a2c52ab326f44d7f42e1f5e674ddcd67387840cbd7e3ae4e0fceeb40696",
+      "export_sha256": "baa41a2c52ab326f44d7f42e1f5e674ddcd67387840cbd7e3ae4e0fceeb40696",
+      "redactions": []
+    },
+    {
+      "path": "calls/016-F16-skill/result.json",
+      "source_sha256": "41765db86c3326146bfc59ac0271ae08ae2bcfa5758451c9d3b1c12bbe06ca8f",
+      "export_sha256": "bd6fa6f723370f3fc42be04b42cbb8ef35ce514f93ae7a8d519963e4e847494d",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/016-F16-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/017-F07-baseline/events.jsonl",
+      "source_sha256": "3c5c1289a8adedfd19a90e36636f9b6b1b0907334f738f63ff58352260c624b0",
+      "export_sha256": "3c5c1289a8adedfd19a90e36636f9b6b1b0907334f738f63ff58352260c624b0",
+      "redactions": []
+    },
+    {
+      "path": "calls/017-F07-baseline/prompt.txt",
+      "source_sha256": "6f69054232cfc50f753a5d507c29e2ee3a7177cd17009e3e44c95da3eefe5055",
+      "export_sha256": "6f69054232cfc50f753a5d507c29e2ee3a7177cd17009e3e44c95da3eefe5055",
+      "redactions": []
+    },
+    {
+      "path": "calls/017-F07-baseline/response.txt",
+      "source_sha256": "449c1b29e9f0e5d8a2441cbb8a1ff9442dace00493397aed62ef7963282f3866",
+      "export_sha256": "449c1b29e9f0e5d8a2441cbb8a1ff9442dace00493397aed62ef7963282f3866",
+      "redactions": []
+    },
+    {
+      "path": "calls/017-F07-baseline/result.json",
+      "source_sha256": "f9bc6b572490a718adfd31d92c5b4de46e41dfbefd9c0b9a722717a38c73f318",
+      "export_sha256": "0bc56bfab0625899f5b265c7b6016153fd921e66a81c0a64d25ecad747c178ba",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/017-F07-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/018-F08-baseline/events.jsonl",
+      "source_sha256": "40532ef69cd66cf6859e4ec5cb7d17b705b9b954448469283bb647353219c444",
+      "export_sha256": "40532ef69cd66cf6859e4ec5cb7d17b705b9b954448469283bb647353219c444",
+      "redactions": []
+    },
+    {
+      "path": "calls/018-F08-baseline/prompt.txt",
+      "source_sha256": "faec8741e6bc25b9e81084a9d2a0e494163a89a0966b3b1f0a8237a70678c4b7",
+      "export_sha256": "faec8741e6bc25b9e81084a9d2a0e494163a89a0966b3b1f0a8237a70678c4b7",
+      "redactions": []
+    },
+    {
+      "path": "calls/018-F08-baseline/response.txt",
+      "source_sha256": "11ac46347fe0a6308d2dea1a289fe896b6cec55cba3c6d31490a62bbd97ffa33",
+      "export_sha256": "11ac46347fe0a6308d2dea1a289fe896b6cec55cba3c6d31490a62bbd97ffa33",
+      "redactions": []
+    },
+    {
+      "path": "calls/018-F08-baseline/result.json",
+      "source_sha256": "7a4be0f22b8f6f13e1e7704c1a70d769a64a568eb4ed6ac3d3c243ae891a2abe",
+      "export_sha256": "a4b21be85372844b73da2dcd8fe13ab95ae434a533a0d4cff5d7ac477512fe11",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/018-F08-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/019-F27-skill/events.jsonl",
+      "source_sha256": "b6d0dca0c724928ccbc78a7793165d11e3a35e4b403848e99509d29cf92d7b2a",
+      "export_sha256": "b6d0dca0c724928ccbc78a7793165d11e3a35e4b403848e99509d29cf92d7b2a",
+      "redactions": []
+    },
+    {
+      "path": "calls/019-F27-skill/prompt.txt",
+      "source_sha256": "ffdb4ca672ed29453d60b86d07bffe5369c6bbd2571dbc246afa88bc9a01c8f3",
+      "export_sha256": "ffdb4ca672ed29453d60b86d07bffe5369c6bbd2571dbc246afa88bc9a01c8f3",
+      "redactions": []
+    },
+    {
+      "path": "calls/019-F27-skill/response.txt",
+      "source_sha256": "ced283fe58d4a2edcbad4221f477d1939c94192a7881a500a9432d301df7b4fb",
+      "export_sha256": "ced283fe58d4a2edcbad4221f477d1939c94192a7881a500a9432d301df7b4fb",
+      "redactions": []
+    },
+    {
+      "path": "calls/019-F27-skill/result.json",
+      "source_sha256": "4fcd6c8cd4e9d1178ec7cce69c3fb083667c3e7737b98f6c66e1168a2b861af2",
+      "export_sha256": "c31e77bb5b534c1d9c117b21313027b424072934122b1b5ea2184b21400a1583",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/019-F27-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/020-F28-skill/events.jsonl",
+      "source_sha256": "1c82c618d2eb694d4dc8186b6ae90bfa9abdd0a9c26e6959896e43bd76c81d35",
+      "export_sha256": "1c82c618d2eb694d4dc8186b6ae90bfa9abdd0a9c26e6959896e43bd76c81d35",
+      "redactions": []
+    },
+    {
+      "path": "calls/020-F28-skill/prompt.txt",
+      "source_sha256": "3f123de88c6e8c619dd5606b985ff77717e40c5164dbdf8387fa67f10a0c5270",
+      "export_sha256": "3f123de88c6e8c619dd5606b985ff77717e40c5164dbdf8387fa67f10a0c5270",
+      "redactions": []
+    },
+    {
+      "path": "calls/020-F28-skill/response.txt",
+      "source_sha256": "b788bab07cb7b45e8da0edf55ba0ceaeba7a2068903059d2f68f6bdd8fdcf64a",
+      "export_sha256": "b788bab07cb7b45e8da0edf55ba0ceaeba7a2068903059d2f68f6bdd8fdcf64a",
+      "redactions": []
+    },
+    {
+      "path": "calls/020-F28-skill/result.json",
+      "source_sha256": "5bea7691b07acef4af2c0aa0c9df7e8ba11d7a582288fafd1cd8b65595b7f8b4",
+      "export_sha256": "b5360491b43abd2d307df204a51183c19e106728000b92421839a7af66aed65b",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/020-F28-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/021-F21-baseline/events.jsonl",
+      "source_sha256": "03e0fba6c29d4e456ba32a622d6c9753bb94f96823c6b7eb5bb51e039f806446",
+      "export_sha256": "03e0fba6c29d4e456ba32a622d6c9753bb94f96823c6b7eb5bb51e039f806446",
+      "redactions": []
+    },
+    {
+      "path": "calls/021-F21-baseline/prompt.txt",
+      "source_sha256": "c90191e123a1dbda34601e12d56b5a989dca49108065aa8ded7368a5a232f31a",
+      "export_sha256": "c90191e123a1dbda34601e12d56b5a989dca49108065aa8ded7368a5a232f31a",
+      "redactions": []
+    },
+    {
+      "path": "calls/021-F21-baseline/response.txt",
+      "source_sha256": "ae5b5cf062f81055b30f0a3a682405cd6dde00996a3ea05838d14d3d05a55b4a",
+      "export_sha256": "ae5b5cf062f81055b30f0a3a682405cd6dde00996a3ea05838d14d3d05a55b4a",
+      "redactions": []
+    },
+    {
+      "path": "calls/021-F21-baseline/result.json",
+      "source_sha256": "1f3358d4832886618affacc30a89453019aed0611afe211349574356d79347cb",
+      "export_sha256": "f5bea2c88e53b67eedc2504184255d589c63a9dc01f706ea651c91c7a305eb04",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/021-F21-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/022-F26-skill/events.jsonl",
+      "source_sha256": "6fa4158d0b182e412c767707307cefe2a5db57345d575d98a162772c1362755a",
+      "export_sha256": "6fa4158d0b182e412c767707307cefe2a5db57345d575d98a162772c1362755a",
+      "redactions": []
+    },
+    {
+      "path": "calls/022-F26-skill/prompt.txt",
+      "source_sha256": "29eda453a6228c45c303d89eccbe7cd13cc294911ceabc499f659e8559c8e082",
+      "export_sha256": "29eda453a6228c45c303d89eccbe7cd13cc294911ceabc499f659e8559c8e082",
+      "redactions": []
+    },
+    {
+      "path": "calls/022-F26-skill/response.txt",
+      "source_sha256": "cbcc6a4e9c0efb62a58c3c24b7612eb920083df7f72206eb6ade18eed3de2f01",
+      "export_sha256": "cbcc6a4e9c0efb62a58c3c24b7612eb920083df7f72206eb6ade18eed3de2f01",
+      "redactions": []
+    },
+    {
+      "path": "calls/022-F26-skill/result.json",
+      "source_sha256": "f90a0701a246adc5a6782cb22478af607501122390448f8cf7a6ebdac3e756c5",
+      "export_sha256": "ae8416b0a8e7e39cd94f6f1dbbad5f08779aa86e2a5e53f14decced68559d884",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/022-F26-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/023-F05-baseline/events.jsonl",
+      "source_sha256": "9bb049f8e910b68cb4eddafa7cc3051b76940b0b88ef83c00d8d27616aed0a66",
+      "export_sha256": "9bb049f8e910b68cb4eddafa7cc3051b76940b0b88ef83c00d8d27616aed0a66",
+      "redactions": []
+    },
+    {
+      "path": "calls/023-F05-baseline/prompt.txt",
+      "source_sha256": "0601c02f8d02ef5629a154ee7ce8cf021ef530a5a586e892d12efa33132b0937",
+      "export_sha256": "0601c02f8d02ef5629a154ee7ce8cf021ef530a5a586e892d12efa33132b0937",
+      "redactions": []
+    },
+    {
+      "path": "calls/023-F05-baseline/response.txt",
+      "source_sha256": "4685fe9ad1f95a81600de1022921aeaefc152d27f2d0c62047472f6e99d030fa",
+      "export_sha256": "4685fe9ad1f95a81600de1022921aeaefc152d27f2d0c62047472f6e99d030fa",
+      "redactions": []
+    },
+    {
+      "path": "calls/023-F05-baseline/result.json",
+      "source_sha256": "1e0e22b095fe7f7b4bf6d53aee493d683eacb8fc7e7b4e79b4e876547efa6cf5",
+      "export_sha256": "fe68d5fe2834cb3981e07d84ce1b3c5fc9c38c13f4fcdb2bceb8cbdead6b38f5",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/023-F05-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/024-F12-baseline/events.jsonl",
+      "source_sha256": "db34b883e1cf9364b68d1bca2c6418de8fd2b1ce5039b1192cbd38f7cfeece8d",
+      "export_sha256": "db34b883e1cf9364b68d1bca2c6418de8fd2b1ce5039b1192cbd38f7cfeece8d",
+      "redactions": []
+    },
+    {
+      "path": "calls/024-F12-baseline/prompt.txt",
+      "source_sha256": "83c6a9d711a269cc5e528b4c80ddf2808f0d2c2adbf09cabfa49a4d51d56b784",
+      "export_sha256": "83c6a9d711a269cc5e528b4c80ddf2808f0d2c2adbf09cabfa49a4d51d56b784",
+      "redactions": []
+    },
+    {
+      "path": "calls/024-F12-baseline/response.txt",
+      "source_sha256": "518591d522237abd5261eef3716049e90ee63e37ce3da83ef3d042364610d656",
+      "export_sha256": "518591d522237abd5261eef3716049e90ee63e37ce3da83ef3d042364610d656",
+      "redactions": []
+    },
+    {
+      "path": "calls/024-F12-baseline/result.json",
+      "source_sha256": "db8aa6e44fb229091be6b8c16e8b4be091761e74b24027202a40a6a7b6b6d2ce",
+      "export_sha256": "e51eeba0d0610756f4d9b0b22a52afa929c5c043cb66e10af573a8d46a36dbca",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/024-F12-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/025-F24-skill/events.jsonl",
+      "source_sha256": "62c3bc215d793d8ab3e2e6f70d2382cc989906c8ad842bc41a0d70583c66f5cb",
+      "export_sha256": "62c3bc215d793d8ab3e2e6f70d2382cc989906c8ad842bc41a0d70583c66f5cb",
+      "redactions": []
+    },
+    {
+      "path": "calls/025-F24-skill/prompt.txt",
+      "source_sha256": "1c16b07baaf63118816a4ec711ebafe3215491a58c3c8e05359d1bc28edb8521",
+      "export_sha256": "1c16b07baaf63118816a4ec711ebafe3215491a58c3c8e05359d1bc28edb8521",
+      "redactions": []
+    },
+    {
+      "path": "calls/025-F24-skill/response.txt",
+      "source_sha256": "04a9fcf17213b1dfd960dd482d5d73f1c54e5b0094b69a6899bbe032a4d48951",
+      "export_sha256": "04a9fcf17213b1dfd960dd482d5d73f1c54e5b0094b69a6899bbe032a4d48951",
+      "redactions": []
+    },
+    {
+      "path": "calls/025-F24-skill/result.json",
+      "source_sha256": "ed668daaeaf1858970c0baa10d5a20813c3d7e99bd8c9b52786e25bce7df97ec",
+      "export_sha256": "73f8ce096709bd44ac70d343d826fdf7882f6f845f8a038f317353b77caf332e",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/025-F24-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/026-F18-baseline/events.jsonl",
+      "source_sha256": "83cae0c6ceff93331d557bf1c022d2539b6493363e7a321058945f0b729b1b66",
+      "export_sha256": "83cae0c6ceff93331d557bf1c022d2539b6493363e7a321058945f0b729b1b66",
+      "redactions": []
+    },
+    {
+      "path": "calls/026-F18-baseline/prompt.txt",
+      "source_sha256": "9a4b5c7cc12d62c38e3a34157962254586a73d776d5b63cb2d141cf5cc8bc2a7",
+      "export_sha256": "9a4b5c7cc12d62c38e3a34157962254586a73d776d5b63cb2d141cf5cc8bc2a7",
+      "redactions": []
+    },
+    {
+      "path": "calls/026-F18-baseline/response.txt",
+      "source_sha256": "436dc1ddb77972bf87737a0ab1ba3d8dfd4903764eb4107379402ac11b3fafef",
+      "export_sha256": "436dc1ddb77972bf87737a0ab1ba3d8dfd4903764eb4107379402ac11b3fafef",
+      "redactions": []
+    },
+    {
+      "path": "calls/026-F18-baseline/result.json",
+      "source_sha256": "ad83372c84850880d110b56cf6899806bee72b24f9a320cecfc43197d58b600a",
+      "export_sha256": "489b9cced0c05ef9c9bbb31dbf63d795487ac4af0eeba578366097e9cf0cc605",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/026-F18-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/027-F22-skill/events.jsonl",
+      "source_sha256": "5145447b8e50e8c87db73e647d0b370def2c49dfbcdfee34c68f7d6483e9783b",
+      "export_sha256": "5145447b8e50e8c87db73e647d0b370def2c49dfbcdfee34c68f7d6483e9783b",
+      "redactions": []
+    },
+    {
+      "path": "calls/027-F22-skill/prompt.txt",
+      "source_sha256": "13c2899f9494853b2a16cceaf5fd8807929530ad1ae226d6c73262861102aba4",
+      "export_sha256": "13c2899f9494853b2a16cceaf5fd8807929530ad1ae226d6c73262861102aba4",
+      "redactions": []
+    },
+    {
+      "path": "calls/027-F22-skill/response.txt",
+      "source_sha256": "2bbd38480eab99da45b76fb20659bf1b3199aba9c831c10ee57e70a6f2bb36c3",
+      "export_sha256": "2bbd38480eab99da45b76fb20659bf1b3199aba9c831c10ee57e70a6f2bb36c3",
+      "redactions": []
+    },
+    {
+      "path": "calls/027-F22-skill/result.json",
+      "source_sha256": "2039d9800881ac51ad98bbcf5ab92103d1a54f20168a0eb1c07059fa3bd432a5",
+      "export_sha256": "03b0d0f9daa942d2d8ffca335acc910c6de30d444ccc744323ee4300a12a7b03",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/027-F22-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/028-F13-baseline/events.jsonl",
+      "source_sha256": "73992988463ab3dbb7faedf877582b950a165e9d5e27c51c6d2e80ce56971c01",
+      "export_sha256": "73992988463ab3dbb7faedf877582b950a165e9d5e27c51c6d2e80ce56971c01",
+      "redactions": []
+    },
+    {
+      "path": "calls/028-F13-baseline/prompt.txt",
+      "source_sha256": "dade80a4d98fdadeed218dd9c2d15e96130e2714289d53b9f54df09e05ec971a",
+      "export_sha256": "dade80a4d98fdadeed218dd9c2d15e96130e2714289d53b9f54df09e05ec971a",
+      "redactions": []
+    },
+    {
+      "path": "calls/028-F13-baseline/response.txt",
+      "source_sha256": "ac36436a08350dbf4320f57d45fbb10e9fcdd7933b5bbc654bb83ecb1d2cff2d",
+      "export_sha256": "ac36436a08350dbf4320f57d45fbb10e9fcdd7933b5bbc654bb83ecb1d2cff2d",
+      "redactions": []
+    },
+    {
+      "path": "calls/028-F13-baseline/result.json",
+      "source_sha256": "d46830bb29d7823df86108d264d46aada4d1b002eeef17df5fbd3bc53b2b0bce",
+      "export_sha256": "58df37c165da9f6c87bd5fede892f96cf470bc3ed3d5be0de09c95a8d36fc326",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/028-F13-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/029-F06-baseline/events.jsonl",
+      "source_sha256": "2246c60b3c9d517a5ccd2a561d303d4ec24ae5127030aab6ead420738452909d",
+      "export_sha256": "2246c60b3c9d517a5ccd2a561d303d4ec24ae5127030aab6ead420738452909d",
+      "redactions": []
+    },
+    {
+      "path": "calls/029-F06-baseline/prompt.txt",
+      "source_sha256": "ff049c921349ece23aa75d8650c4e214b6d987bf8c32b096dceee8ae431d4639",
+      "export_sha256": "ff049c921349ece23aa75d8650c4e214b6d987bf8c32b096dceee8ae431d4639",
+      "redactions": []
+    },
+    {
+      "path": "calls/029-F06-baseline/response.txt",
+      "source_sha256": "6e3a9a005d1db45dd17bfce5254eb412ad2804babcd86ecd7544f32d3b4b342a",
+      "export_sha256": "6e3a9a005d1db45dd17bfce5254eb412ad2804babcd86ecd7544f32d3b4b342a",
+      "redactions": []
+    },
+    {
+      "path": "calls/029-F06-baseline/result.json",
+      "source_sha256": "6c47ed20c53b76f4681737a683b3f366043bb94d6a6406debf5bbdb27ac06cca",
+      "export_sha256": "86c3861861a0cd0a48407c8fb258693f2abf726a0a501b2548b4ac14bf3e5b8f",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/029-F06-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/030-F11-skill/events.jsonl",
+      "source_sha256": "a29ff619906fe496ce01d4b9f66400af94807acbfb90a4ea507866296abf4865",
+      "export_sha256": "a29ff619906fe496ce01d4b9f66400af94807acbfb90a4ea507866296abf4865",
+      "redactions": []
+    },
+    {
+      "path": "calls/030-F11-skill/prompt.txt",
+      "source_sha256": "9bbd813e5db90479ff5c19e0ef1877fff2092ff3727c766861c45ca777854a08",
+      "export_sha256": "9bbd813e5db90479ff5c19e0ef1877fff2092ff3727c766861c45ca777854a08",
+      "redactions": []
+    },
+    {
+      "path": "calls/030-F11-skill/response.txt",
+      "source_sha256": "2223056df250603eae664d064bc1e1b04e2425648e495321bb347b4943ebc4f6",
+      "export_sha256": "2223056df250603eae664d064bc1e1b04e2425648e495321bb347b4943ebc4f6",
+      "redactions": []
+    },
+    {
+      "path": "calls/030-F11-skill/result.json",
+      "source_sha256": "578e9208787f2ddd07b23658f8b6c23d9a04c9da965a6531120be9096a46b881",
+      "export_sha256": "001ae85b6a453ddcf526b648cdba96885f9ee8b670521a1d69a785b1dda2c663",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/030-F11-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/031-F07-skill/events.jsonl",
+      "source_sha256": "0f6e832008ec93cc66de8df3ab63e3c2ae878f772291a8bcd51115cac2322327",
+      "export_sha256": "0f6e832008ec93cc66de8df3ab63e3c2ae878f772291a8bcd51115cac2322327",
+      "redactions": []
+    },
+    {
+      "path": "calls/031-F07-skill/prompt.txt",
+      "source_sha256": "648b073f60401a9c9e944d2306ea67b49381b3a7741c9f466ab4169d95e13d31",
+      "export_sha256": "648b073f60401a9c9e944d2306ea67b49381b3a7741c9f466ab4169d95e13d31",
+      "redactions": []
+    },
+    {
+      "path": "calls/031-F07-skill/response.txt",
+      "source_sha256": "615d1b985a2c79faf9d97d02b1a2857e48cca6a3c42ce8594a45bd2a6e9f53ed",
+      "export_sha256": "615d1b985a2c79faf9d97d02b1a2857e48cca6a3c42ce8594a45bd2a6e9f53ed",
+      "redactions": []
+    },
+    {
+      "path": "calls/031-F07-skill/result.json",
+      "source_sha256": "3c703c4d847a32fc0ff0f5ea2e9f2b858731aaa067d3f4c68ffb5c234b076cda",
+      "export_sha256": "33b14034224332081f2ca46280c5ed8732885053b560ba12a62df1b93b82b534",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/031-F07-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/032-F09-skill/events.jsonl",
+      "source_sha256": "be9b9dc50c1bce6282ec320b406e3868cf9fe1dd4ba3c64ddf163d569760e4e0",
+      "export_sha256": "be9b9dc50c1bce6282ec320b406e3868cf9fe1dd4ba3c64ddf163d569760e4e0",
+      "redactions": []
+    },
+    {
+      "path": "calls/032-F09-skill/prompt.txt",
+      "source_sha256": "8f4a295a60d85c77fd94cafd55dba9ad32a38bb37c4f5a9f733ea1c29efe4e10",
+      "export_sha256": "8f4a295a60d85c77fd94cafd55dba9ad32a38bb37c4f5a9f733ea1c29efe4e10",
+      "redactions": []
+    },
+    {
+      "path": "calls/032-F09-skill/response.txt",
+      "source_sha256": "9c49634119b2a5f58039e3d5d4342170b4469ab692f74a9ca2574cae764d2c4e",
+      "export_sha256": "9c49634119b2a5f58039e3d5d4342170b4469ab692f74a9ca2574cae764d2c4e",
+      "redactions": []
+    },
+    {
+      "path": "calls/032-F09-skill/result.json",
+      "source_sha256": "eccb20a923ddf9b1cb5d0c675b781a334e44fb532ee32116d1cee22604185ed7",
+      "export_sha256": "96a038f73b90fa55414ec12707b72a3e8aac97fbc75134b2ac5f56e222026ac8",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/032-F09-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/033-F26-baseline/events.jsonl",
+      "source_sha256": "1c454cba955c94036f83e54ef64e409139be1ffe8dc759fb21a4acf42009b0a0",
+      "export_sha256": "1c454cba955c94036f83e54ef64e409139be1ffe8dc759fb21a4acf42009b0a0",
+      "redactions": []
+    },
+    {
+      "path": "calls/033-F26-baseline/prompt.txt",
+      "source_sha256": "87ad9a14c260209a38a6825f01af989597df5e4dca06de7c23ff6d37ffe986d1",
+      "export_sha256": "87ad9a14c260209a38a6825f01af989597df5e4dca06de7c23ff6d37ffe986d1",
+      "redactions": []
+    },
+    {
+      "path": "calls/033-F26-baseline/response.txt",
+      "source_sha256": "8a6ea5adb74e44081d4893ca6302ed1a4879019b0409635f111b458119acf109",
+      "export_sha256": "8a6ea5adb74e44081d4893ca6302ed1a4879019b0409635f111b458119acf109",
+      "redactions": []
+    },
+    {
+      "path": "calls/033-F26-baseline/result.json",
+      "source_sha256": "a9f2056ee849eb58d075dfef4b6736399fa6cbae8c751920fa9e98eaa8d4bc11",
+      "export_sha256": "646a88a8863f8ef62581255281870034b326da6117efbfbd35923ee570b14218",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/033-F26-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/034-F03-skill/events.jsonl",
+      "source_sha256": "52f9fb5177c3bf8d2c0fba6fd9e0b498ec93290847dfc859548322953820bcf9",
+      "export_sha256": "52f9fb5177c3bf8d2c0fba6fd9e0b498ec93290847dfc859548322953820bcf9",
+      "redactions": []
+    },
+    {
+      "path": "calls/034-F03-skill/prompt.txt",
+      "source_sha256": "c56396c954c2f0b63b0d5d407248dadb1aed7edef4e50915d599f6d0326bdf72",
+      "export_sha256": "c56396c954c2f0b63b0d5d407248dadb1aed7edef4e50915d599f6d0326bdf72",
+      "redactions": []
+    },
+    {
+      "path": "calls/034-F03-skill/response.txt",
+      "source_sha256": "01d9518baa454b556497c5e834e1fdf7ce2d43db078a9d863f6d97b11344a2c9",
+      "export_sha256": "01d9518baa454b556497c5e834e1fdf7ce2d43db078a9d863f6d97b11344a2c9",
+      "redactions": []
+    },
+    {
+      "path": "calls/034-F03-skill/result.json",
+      "source_sha256": "97e6b3ead687bc4b9a6517043155c0f142036c78ed6d9ca7c4a8ea6bb44c8f85",
+      "export_sha256": "f6897bf3849a783dbe6f48653c60c79c172922629edaad68ae607474712a9979",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/034-F03-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/035-F24-baseline/events.jsonl",
+      "source_sha256": "1730b728c0709379ddfc67bfc144cf91acbdf51a4ddfae0e32e15e9ed96fe86a",
+      "export_sha256": "1730b728c0709379ddfc67bfc144cf91acbdf51a4ddfae0e32e15e9ed96fe86a",
+      "redactions": []
+    },
+    {
+      "path": "calls/035-F24-baseline/prompt.txt",
+      "source_sha256": "0d847b8f1a38bbdede4d835c1811e43506b5788af708d18694bba94d293e7de2",
+      "export_sha256": "0d847b8f1a38bbdede4d835c1811e43506b5788af708d18694bba94d293e7de2",
+      "redactions": []
+    },
+    {
+      "path": "calls/035-F24-baseline/response.txt",
+      "source_sha256": "73aee414f5ca6747aabc16bdfefcf249a81ce8832905977fbb099ea4028c6781",
+      "export_sha256": "73aee414f5ca6747aabc16bdfefcf249a81ce8832905977fbb099ea4028c6781",
+      "redactions": []
+    },
+    {
+      "path": "calls/035-F24-baseline/result.json",
+      "source_sha256": "bb32054eaf96979642513d9947c758413b0176e125c4632f5e2d391f8d7758ea",
+      "export_sha256": "1a40817fa25c96a549da6e500a342491462fc6e875e5ff41a16a626e5cda8204",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/035-F24-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/036-F10-baseline/events.jsonl",
+      "source_sha256": "8026e1728d98eaa4d9cd88d8e53880d2658ec94a5c09a713261dfe844878d2a6",
+      "export_sha256": "8026e1728d98eaa4d9cd88d8e53880d2658ec94a5c09a713261dfe844878d2a6",
+      "redactions": []
+    },
+    {
+      "path": "calls/036-F10-baseline/prompt.txt",
+      "source_sha256": "0283aa442ee683fad4fee1ce18f97ea6b5fcad0ae07b76d688dc7131678b897b",
+      "export_sha256": "0283aa442ee683fad4fee1ce18f97ea6b5fcad0ae07b76d688dc7131678b897b",
+      "redactions": []
+    },
+    {
+      "path": "calls/036-F10-baseline/response.txt",
+      "source_sha256": "3d4a502f52925c57572bac7c109d549d66b5a24835f73d46b39a8002d7931d75",
+      "export_sha256": "3d4a502f52925c57572bac7c109d549d66b5a24835f73d46b39a8002d7931d75",
+      "redactions": []
+    },
+    {
+      "path": "calls/036-F10-baseline/result.json",
+      "source_sha256": "86a6b643eb6576967401bcc003d0431b0806d8002d5a026d1ab1080e15663be0",
+      "export_sha256": "4ba031d226ea9f229049a09a2a3a81538c9ea5b161e0aca0f28e244a6da1ee28",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/036-F10-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/037-F01-skill/events.jsonl",
+      "source_sha256": "ed34ea81a4a96afa7839cb1a0f5a1a166b5e6329cf5e7204c065ef8d99ce42ef",
+      "export_sha256": "ed34ea81a4a96afa7839cb1a0f5a1a166b5e6329cf5e7204c065ef8d99ce42ef",
+      "redactions": []
+    },
+    {
+      "path": "calls/037-F01-skill/prompt.txt",
+      "source_sha256": "7d4eb81e9dbbec7a8d1241f9daf3641a490c4a4ced352b4e140e8fd77de7d386",
+      "export_sha256": "7d4eb81e9dbbec7a8d1241f9daf3641a490c4a4ced352b4e140e8fd77de7d386",
+      "redactions": []
+    },
+    {
+      "path": "calls/037-F01-skill/response.txt",
+      "source_sha256": "bb31e63211b0e32b9c77a1033161f8c3aa73bc2b9daebb8bb3a03e48848bcad2",
+      "export_sha256": "bb31e63211b0e32b9c77a1033161f8c3aa73bc2b9daebb8bb3a03e48848bcad2",
+      "redactions": []
+    },
+    {
+      "path": "calls/037-F01-skill/result.json",
+      "source_sha256": "cc9b818e27c9c22083fd640f605641f4b9d727b711caa249a349955c732a0e56",
+      "export_sha256": "4237f75ea3842a9648355febfc19f34b4fa412899b35a62f2f9a507b2f5e27ab",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/037-F01-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/038-F25-skill/events.jsonl",
+      "source_sha256": "3b8ec01a0b62e7ce62ab8697085de1eb7a555857c2775c938d371d8055e603d5",
+      "export_sha256": "3b8ec01a0b62e7ce62ab8697085de1eb7a555857c2775c938d371d8055e603d5",
+      "redactions": []
+    },
+    {
+      "path": "calls/038-F25-skill/prompt.txt",
+      "source_sha256": "386171d3097c42836d8a18ceba0992ebdc0b4a1b6c934c69603a370d41719679",
+      "export_sha256": "386171d3097c42836d8a18ceba0992ebdc0b4a1b6c934c69603a370d41719679",
+      "redactions": []
+    },
+    {
+      "path": "calls/038-F25-skill/response.txt",
+      "source_sha256": "f7e8eed3fced6f72fb9882b2172b092502ab0545638315e863de2f19ff582bb6",
+      "export_sha256": "f7e8eed3fced6f72fb9882b2172b092502ab0545638315e863de2f19ff582bb6",
+      "redactions": []
+    },
+    {
+      "path": "calls/038-F25-skill/result.json",
+      "source_sha256": "b691a44498af2cec9abc4248fca953d0ce3b61efc21d1b6f21178da3c9637370",
+      "export_sha256": "9f31f83b1afccfc6a399bf138052dcf3e37986dc7c630770aa2264c5203d0453",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/038-F25-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/039-F23-skill/events.jsonl",
+      "source_sha256": "ba0c851cdf74908263ba9ab3941d0b695c01b40a84d940f5fedc70c4e95dc7ad",
+      "export_sha256": "ba0c851cdf74908263ba9ab3941d0b695c01b40a84d940f5fedc70c4e95dc7ad",
+      "redactions": []
+    },
+    {
+      "path": "calls/039-F23-skill/prompt.txt",
+      "source_sha256": "dbc19f52dacff77c7be8409d55dae36a4c4066a148544c962d1f1a26241b58e3",
+      "export_sha256": "dbc19f52dacff77c7be8409d55dae36a4c4066a148544c962d1f1a26241b58e3",
+      "redactions": []
+    },
+    {
+      "path": "calls/039-F23-skill/response.txt",
+      "source_sha256": "415004ac5e6bf7f259388a1f887b1d26659927dba4765ba3d9759e13583695d6",
+      "export_sha256": "415004ac5e6bf7f259388a1f887b1d26659927dba4765ba3d9759e13583695d6",
+      "redactions": []
+    },
+    {
+      "path": "calls/039-F23-skill/result.json",
+      "source_sha256": "f920f7d993c9426164883b0eb381f08a606e4dc6dfc7076ed66f0ca9ef371e16",
+      "export_sha256": "f2b5c6325447485cbc56f442021efc85641ada33d8ad030dd0e421d7fae817a7",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/039-F23-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/040-F02-skill/events.jsonl",
+      "source_sha256": "a17d027a946d2bbd75514d8884b40232727200c33cb377013eba5a0763eec757",
+      "export_sha256": "a17d027a946d2bbd75514d8884b40232727200c33cb377013eba5a0763eec757",
+      "redactions": []
+    },
+    {
+      "path": "calls/040-F02-skill/prompt.txt",
+      "source_sha256": "c8a9d4495c16ca90239df66fe1192391071bc2dcd3fb7aac17c4a26968852ad8",
+      "export_sha256": "c8a9d4495c16ca90239df66fe1192391071bc2dcd3fb7aac17c4a26968852ad8",
+      "redactions": []
+    },
+    {
+      "path": "calls/040-F02-skill/response.txt",
+      "source_sha256": "0a6e0d6ca8b221ef7a8159580394cc2b6891708d8c981e8a85c71d62f12717d3",
+      "export_sha256": "0a6e0d6ca8b221ef7a8159580394cc2b6891708d8c981e8a85c71d62f12717d3",
+      "redactions": []
+    },
+    {
+      "path": "calls/040-F02-skill/result.json",
+      "source_sha256": "75f0e366bb7bb36ba19077475789b70f7d65e0fd81cb2b8dfad4164296e38b9c",
+      "export_sha256": "055d1977e214d5d1acce0bb9a07817caf143f5d2e5e08d2307eec8d587441c69",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/040-F02-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/041-F27-baseline/events.jsonl",
+      "source_sha256": "02a230fba0647d36de011ff1cafd1fea5ad3faaf31423909c24a20fc68de1d9d",
+      "export_sha256": "02a230fba0647d36de011ff1cafd1fea5ad3faaf31423909c24a20fc68de1d9d",
+      "redactions": []
+    },
+    {
+      "path": "calls/041-F27-baseline/prompt.txt",
+      "source_sha256": "82dd66a320571bed4e4e9ce1fe4a356ee6eab5e982519558b9256f5e458eb0fc",
+      "export_sha256": "82dd66a320571bed4e4e9ce1fe4a356ee6eab5e982519558b9256f5e458eb0fc",
+      "redactions": []
+    },
+    {
+      "path": "calls/041-F27-baseline/response.txt",
+      "source_sha256": "9862468c79a84e9e0ffb749c49d87639fc879a8bf9c8416f223501d7b204e0c7",
+      "export_sha256": "9862468c79a84e9e0ffb749c49d87639fc879a8bf9c8416f223501d7b204e0c7",
+      "redactions": []
+    },
+    {
+      "path": "calls/041-F27-baseline/result.json",
+      "source_sha256": "5727aef74a078b9893a0318b1a57c7613173264494d4ea4cdd000257d418d7e3",
+      "export_sha256": "a5be4c0e40049adb56ffc8b1fd1b5dbfeb7ed6218c0145c43a52ae7f7d434c21",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/041-F27-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/042-F20-skill/events.jsonl",
+      "source_sha256": "21e745646b658c73cc803b00176cdab00a47245a754bc983d2f07aec031e628f",
+      "export_sha256": "21e745646b658c73cc803b00176cdab00a47245a754bc983d2f07aec031e628f",
+      "redactions": []
+    },
+    {
+      "path": "calls/042-F20-skill/prompt.txt",
+      "source_sha256": "70f0ffd193ee36bb555ecad5e4aa929dcc1db2aea36a447a1542fc2ebc2cb0fb",
+      "export_sha256": "70f0ffd193ee36bb555ecad5e4aa929dcc1db2aea36a447a1542fc2ebc2cb0fb",
+      "redactions": []
+    },
+    {
+      "path": "calls/042-F20-skill/response.txt",
+      "source_sha256": "e2b0df4fbf64149bf6f38c34dcf4be2af83d603615eab3dba3a0ce6ce6fa1098",
+      "export_sha256": "e2b0df4fbf64149bf6f38c34dcf4be2af83d603615eab3dba3a0ce6ce6fa1098",
+      "redactions": []
+    },
+    {
+      "path": "calls/042-F20-skill/result.json",
+      "source_sha256": "60cef37dd1c30d04be3d61336dda916c6a0e1f4ee9182d5d9619311f38823538",
+      "export_sha256": "f570a679284e47cb8112ba3cbd4df84f220c55d5be24121c59793fc5fbe9da2a",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/042-F20-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/043-F10-skill/events.jsonl",
+      "source_sha256": "e3014276a459bbc51f279aaead472d3a1ffe40ac4daaa63e653b056ec7d80693",
+      "export_sha256": "e3014276a459bbc51f279aaead472d3a1ffe40ac4daaa63e653b056ec7d80693",
+      "redactions": []
+    },
+    {
+      "path": "calls/043-F10-skill/prompt.txt",
+      "source_sha256": "be400c9eb8c7ddb2927cb04b43bdc9685b03a0c75a92675c891f41fb169c7962",
+      "export_sha256": "be400c9eb8c7ddb2927cb04b43bdc9685b03a0c75a92675c891f41fb169c7962",
+      "redactions": []
+    },
+    {
+      "path": "calls/043-F10-skill/response.txt",
+      "source_sha256": "06232a6d8c1b0f686365f57bfb1e09b50a1e1317826bace6a067c318d46837b0",
+      "export_sha256": "06232a6d8c1b0f686365f57bfb1e09b50a1e1317826bace6a067c318d46837b0",
+      "redactions": []
+    },
+    {
+      "path": "calls/043-F10-skill/result.json",
+      "source_sha256": "61bbf7b304e9b2641ae0cea33a9a638e76c55f889a9eb3851cf2a2c40760d695",
+      "export_sha256": "9c82e9d1e9067f82da5ba4cd28c9f2661fe6395aca0648805ec5921c2b2d2be9",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/043-F10-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/044-F04-skill/events.jsonl",
+      "source_sha256": "f123d15ff6b304772d89148ce0ebeb5bbc1c8ee8ae9f1f866b89fd5fbdb3c9e6",
+      "export_sha256": "f123d15ff6b304772d89148ce0ebeb5bbc1c8ee8ae9f1f866b89fd5fbdb3c9e6",
+      "redactions": []
+    },
+    {
+      "path": "calls/044-F04-skill/prompt.txt",
+      "source_sha256": "d2cddb12994ff70785639bd84590b66d6b5a5a38e3b26414a6fb072b57bf2f31",
+      "export_sha256": "d2cddb12994ff70785639bd84590b66d6b5a5a38e3b26414a6fb072b57bf2f31",
+      "redactions": []
+    },
+    {
+      "path": "calls/044-F04-skill/response.txt",
+      "source_sha256": "cdd504f18ce9aea2b0f16bc6fbb97aeca9e72d36838dc8603290cc3197ede9e2",
+      "export_sha256": "cdd504f18ce9aea2b0f16bc6fbb97aeca9e72d36838dc8603290cc3197ede9e2",
+      "redactions": []
+    },
+    {
+      "path": "calls/044-F04-skill/result.json",
+      "source_sha256": "b0413a291e2095f0bec6ed3803f96226827bffdb77ea0f4a212c360d3ee4e6e9",
+      "export_sha256": "40c384f4fcc179e5780b8872240b3583cb759053fced429e7d673c0b868f608e",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/044-F04-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/045-F16-baseline/events.jsonl",
+      "source_sha256": "acf4c2aca0ddf34a6bd6e185bff027742b5e0cc0211f516a232bfb5478f7470e",
+      "export_sha256": "acf4c2aca0ddf34a6bd6e185bff027742b5e0cc0211f516a232bfb5478f7470e",
+      "redactions": []
+    },
+    {
+      "path": "calls/045-F16-baseline/prompt.txt",
+      "source_sha256": "609296ffe65efe7f992f3f7fc99ddeaa542d79f22ffea15e0e43701ac34cbab6",
+      "export_sha256": "609296ffe65efe7f992f3f7fc99ddeaa542d79f22ffea15e0e43701ac34cbab6",
+      "redactions": []
+    },
+    {
+      "path": "calls/045-F16-baseline/response.txt",
+      "source_sha256": "bf63aab2dc287c6b12327a1b38aa30326a28555e1b70ec756ea845e4b9f2482c",
+      "export_sha256": "bf63aab2dc287c6b12327a1b38aa30326a28555e1b70ec756ea845e4b9f2482c",
+      "redactions": []
+    },
+    {
+      "path": "calls/045-F16-baseline/result.json",
+      "source_sha256": "89ef37f7ce5497a7d4354d104934268221887fb661e358fd77bdcb95d48f8cd5",
+      "export_sha256": "7e175fc51354234b626ae17217184e9650d9f1000988c748d1d814a2b94786c9",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/045-F16-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/046-F22-baseline/events.jsonl",
+      "source_sha256": "6975a213e978e57b2311028cd4a71cf52c6f3cfeea22f5785d904cafec0c2e18",
+      "export_sha256": "6975a213e978e57b2311028cd4a71cf52c6f3cfeea22f5785d904cafec0c2e18",
+      "redactions": []
+    },
+    {
+      "path": "calls/046-F22-baseline/prompt.txt",
+      "source_sha256": "67dd6c01faae5b4faa3c0013c1da32552c0e6e89d8b067a269e2348245694aa2",
+      "export_sha256": "67dd6c01faae5b4faa3c0013c1da32552c0e6e89d8b067a269e2348245694aa2",
+      "redactions": []
+    },
+    {
+      "path": "calls/046-F22-baseline/response.txt",
+      "source_sha256": "f2ddadc1c2137828799250cbdc999ae250eecaa17e59e7a24bf93a013dcc1c90",
+      "export_sha256": "f2ddadc1c2137828799250cbdc999ae250eecaa17e59e7a24bf93a013dcc1c90",
+      "redactions": []
+    },
+    {
+      "path": "calls/046-F22-baseline/result.json",
+      "source_sha256": "09b90c64ff9cfe46781e2be4d39a59fd8b596b181841d37eacaaae9f86f4c728",
+      "export_sha256": "f96c994be512f6a576d37ecd8e6b0636060f9f207f2c3eba86463bcb91c8ac8d",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/046-F22-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/047-F06-skill/events.jsonl",
+      "source_sha256": "2c7668bb35f8e0e4b7aa1307652ddaf7942235fe820e577a26fe5981bc0e2858",
+      "export_sha256": "2c7668bb35f8e0e4b7aa1307652ddaf7942235fe820e577a26fe5981bc0e2858",
+      "redactions": []
+    },
+    {
+      "path": "calls/047-F06-skill/prompt.txt",
+      "source_sha256": "be35c8a4bd55fee2bcab8cf14ebc96e379ad742dbdb2370f314604e3c4243d50",
+      "export_sha256": "be35c8a4bd55fee2bcab8cf14ebc96e379ad742dbdb2370f314604e3c4243d50",
+      "redactions": []
+    },
+    {
+      "path": "calls/047-F06-skill/response.txt",
+      "source_sha256": "fc7aa45d9fe7e93dcc9ae540745dd17ef00c7ccab06f6e600d291f0ddf1d07f5",
+      "export_sha256": "fc7aa45d9fe7e93dcc9ae540745dd17ef00c7ccab06f6e600d291f0ddf1d07f5",
+      "redactions": []
+    },
+    {
+      "path": "calls/047-F06-skill/result.json",
+      "source_sha256": "8bb6814161c98afc9f7264785594f948e89bf461a4128524542032988e287936",
+      "export_sha256": "1be58b4c37ef57e34d06540dc18bc3fafc5d3c14fd2639820dbd41b1bf903331",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/047-F06-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/048-F13-skill/events.jsonl",
+      "source_sha256": "d85883d16a4062dce213d99615dbfd685c87a08a87471ba1bac7122f15e9e749",
+      "export_sha256": "d85883d16a4062dce213d99615dbfd685c87a08a87471ba1bac7122f15e9e749",
+      "redactions": []
+    },
+    {
+      "path": "calls/048-F13-skill/prompt.txt",
+      "source_sha256": "cafc2eae1509e95e9fe737f8cee2afd9a313a35aab5fbe41b97b0e3d1a95e454",
+      "export_sha256": "cafc2eae1509e95e9fe737f8cee2afd9a313a35aab5fbe41b97b0e3d1a95e454",
+      "redactions": []
+    },
+    {
+      "path": "calls/048-F13-skill/response.txt",
+      "source_sha256": "2b32ead2dbf3a140824b703f649676058361573fe83d3cd03e7824723abb5a08",
+      "export_sha256": "2b32ead2dbf3a140824b703f649676058361573fe83d3cd03e7824723abb5a08",
+      "redactions": []
+    },
+    {
+      "path": "calls/048-F13-skill/result.json",
+      "source_sha256": "eeae8805a824baaddba145b6c4fe7b9ffb486e87309ed8e34e34bb7f3b0d3977",
+      "export_sha256": "bf4edf78f3214c6a9b7d34be916c191c530e8a8a4f3d3e6055d70d18eaeeca59",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/048-F13-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/049-F17-skill/events.jsonl",
+      "source_sha256": "4aa50541d184c0d4c61a858f15ed8d23f5b98d2ea7119c62c4d7cb1be60df7be",
+      "export_sha256": "4aa50541d184c0d4c61a858f15ed8d23f5b98d2ea7119c62c4d7cb1be60df7be",
+      "redactions": []
+    },
+    {
+      "path": "calls/049-F17-skill/prompt.txt",
+      "source_sha256": "f8cef43144bddc2b2a77013bb5760e874bed79ae4b6e9dec67eacd0b2590cac3",
+      "export_sha256": "f8cef43144bddc2b2a77013bb5760e874bed79ae4b6e9dec67eacd0b2590cac3",
+      "redactions": []
+    },
+    {
+      "path": "calls/049-F17-skill/response.txt",
+      "source_sha256": "547ffb312401d76007e891d41b9d5ac0e4fb9c99f302bf0c80844bb099170274",
+      "export_sha256": "547ffb312401d76007e891d41b9d5ac0e4fb9c99f302bf0c80844bb099170274",
+      "redactions": []
+    },
+    {
+      "path": "calls/049-F17-skill/result.json",
+      "source_sha256": "a28dccd6a4ef6c9d75249ac07031c56f2d3f16c51963b304773f307a60268cf4",
+      "export_sha256": "148c975978cd31b76f708f9c3222a0d6417c47ccb7c3de3a9fd5b7824a1d0bb8",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/049-F17-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/050-F02-baseline/events.jsonl",
+      "source_sha256": "0fcebd01e578481be7a11139ef07a40e9648747fd69bc7b6f4eca12b7c0945d0",
+      "export_sha256": "0fcebd01e578481be7a11139ef07a40e9648747fd69bc7b6f4eca12b7c0945d0",
+      "redactions": []
+    },
+    {
+      "path": "calls/050-F02-baseline/prompt.txt",
+      "source_sha256": "eb7beaaaccede7305908eb7b95257597e1ba11b67ec4c7bb4481dc4d41ca7d41",
+      "export_sha256": "eb7beaaaccede7305908eb7b95257597e1ba11b67ec4c7bb4481dc4d41ca7d41",
+      "redactions": []
+    },
+    {
+      "path": "calls/050-F02-baseline/response.txt",
+      "source_sha256": "c063e6eb471db771c626a1e8854a68cdc9e1074ef181dc7454dffb82de00ec84",
+      "export_sha256": "c063e6eb471db771c626a1e8854a68cdc9e1074ef181dc7454dffb82de00ec84",
+      "redactions": []
+    },
+    {
+      "path": "calls/050-F02-baseline/result.json",
+      "source_sha256": "c0dca9a16a49f0139e1c683d6d119dff13d40e991b85c2072103a77df2481c5d",
+      "export_sha256": "365f75601060da36909bd5999f91ed6daef3b22b5630bfbb29a02369ac1f9e1d",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/050-F02-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/051-F08-skill/events.jsonl",
+      "source_sha256": "b8734cd8a2f0656c8cc31362d842fea4ba4f3d5695187314232b69581cc86c73",
+      "export_sha256": "b8734cd8a2f0656c8cc31362d842fea4ba4f3d5695187314232b69581cc86c73",
+      "redactions": []
+    },
+    {
+      "path": "calls/051-F08-skill/prompt.txt",
+      "source_sha256": "29228fe8f336b64aa91e0b07b7879525847a8ec2fe62003c7ace90d24536bb79",
+      "export_sha256": "29228fe8f336b64aa91e0b07b7879525847a8ec2fe62003c7ace90d24536bb79",
+      "redactions": []
+    },
+    {
+      "path": "calls/051-F08-skill/response.txt",
+      "source_sha256": "3c3ec9a1f66c6b548fb436a6c13a50df722f9ba4d0c9e965882dec07ea6ff6d6",
+      "export_sha256": "3c3ec9a1f66c6b548fb436a6c13a50df722f9ba4d0c9e965882dec07ea6ff6d6",
+      "redactions": []
+    },
+    {
+      "path": "calls/051-F08-skill/result.json",
+      "source_sha256": "ba29a5edceb16e857fbe7d924c6a8f1b5afd9b2f4e2a26474fcccead537738c2",
+      "export_sha256": "fb6c1581c62404b2b27fb701eb0b21dba5d26ac0a2c12ed57406e857745e136b",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/051-F08-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/052-F18-skill/events.jsonl",
+      "source_sha256": "0fc5aeb463b9f6e2da097022757fb6954e4e175344a9841652d26097534e82e3",
+      "export_sha256": "0fc5aeb463b9f6e2da097022757fb6954e4e175344a9841652d26097534e82e3",
+      "redactions": []
+    },
+    {
+      "path": "calls/052-F18-skill/prompt.txt",
+      "source_sha256": "84be78bf7fd41d6b9fe88f02c270eecb3fac1f05702b4945c1ba99f2231950cf",
+      "export_sha256": "84be78bf7fd41d6b9fe88f02c270eecb3fac1f05702b4945c1ba99f2231950cf",
+      "redactions": []
+    },
+    {
+      "path": "calls/052-F18-skill/response.txt",
+      "source_sha256": "6af5c2c4ee9d6b6641c89c6c37150841009f17b76264e8d018116a11bf534082",
+      "export_sha256": "6af5c2c4ee9d6b6641c89c6c37150841009f17b76264e8d018116a11bf534082",
+      "redactions": []
+    },
+    {
+      "path": "calls/052-F18-skill/result.json",
+      "source_sha256": "72feb99482ea8143494de5d637433a287a6175f0d1e1291c786b84d1252ae261",
+      "export_sha256": "beb5e44f104a211a0a5856446b4384b06c1eb75569eb9a2225cc69834a837cc2",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/052-F18-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/053-F15-baseline/events.jsonl",
+      "source_sha256": "e02383205d5ea7e0bd110e66f8a9850e267ab23082f36a719fb045eeafc5f7bf",
+      "export_sha256": "e02383205d5ea7e0bd110e66f8a9850e267ab23082f36a719fb045eeafc5f7bf",
+      "redactions": []
+    },
+    {
+      "path": "calls/053-F15-baseline/prompt.txt",
+      "source_sha256": "83168b99466afa5178a7e15a15bd57847222dfbe47eda334fba51447fafbda1c",
+      "export_sha256": "83168b99466afa5178a7e15a15bd57847222dfbe47eda334fba51447fafbda1c",
+      "redactions": []
+    },
+    {
+      "path": "calls/053-F15-baseline/response.txt",
+      "source_sha256": "4adbc2102f3ec8cbfc2b91df12f15422b72acebf57806ee1ab3396858407927b",
+      "export_sha256": "4adbc2102f3ec8cbfc2b91df12f15422b72acebf57806ee1ab3396858407927b",
+      "redactions": []
+    },
+    {
+      "path": "calls/053-F15-baseline/result.json",
+      "source_sha256": "e2a95499be090d3e175f2bcc58ce061930fb42f659ceee48e8bd334165672b26",
+      "export_sha256": "c05bf8c59f1002051c4c0900651c5a2f8b2fcfd00a3166ed0b3000efb6b1bc97",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/053-F15-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/054-F11-baseline/events.jsonl",
+      "source_sha256": "825b49d364662270c68baac39e8b7198ad62ccfb19314147572f9169560d530b",
+      "export_sha256": "825b49d364662270c68baac39e8b7198ad62ccfb19314147572f9169560d530b",
+      "redactions": []
+    },
+    {
+      "path": "calls/054-F11-baseline/prompt.txt",
+      "source_sha256": "b46e9fb8af1ff49f35cd000deb4b37ed91a84c9a8398c1040a517b46e6258b3d",
+      "export_sha256": "b46e9fb8af1ff49f35cd000deb4b37ed91a84c9a8398c1040a517b46e6258b3d",
+      "redactions": []
+    },
+    {
+      "path": "calls/054-F11-baseline/response.txt",
+      "source_sha256": "30708ddae6d7d51dd603c55c433bca21a2901c05ca1855af5d8f225647c8fb41",
+      "export_sha256": "30708ddae6d7d51dd603c55c433bca21a2901c05ca1855af5d8f225647c8fb41",
+      "redactions": []
+    },
+    {
+      "path": "calls/054-F11-baseline/result.json",
+      "source_sha256": "3deccf22915926b6d998a187f1044e363d8c624c2f68de997695573f832965f0",
+      "export_sha256": "f3ad726d9cb67793ea96b8a338ff454ce98e312af6d895ab42d3919a53c6318f",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/054-F11-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/055-F01-baseline/events.jsonl",
+      "source_sha256": "5e81012acac5a9b7b55f4c6cf47b84d90a396bb700ed3911b4c8beea1162d5fc",
+      "export_sha256": "5e81012acac5a9b7b55f4c6cf47b84d90a396bb700ed3911b4c8beea1162d5fc",
+      "redactions": []
+    },
+    {
+      "path": "calls/055-F01-baseline/prompt.txt",
+      "source_sha256": "5705d2e5748f7c3720442573f72e93ffd478e7e92e030e5b8119f0379200d191",
+      "export_sha256": "5705d2e5748f7c3720442573f72e93ffd478e7e92e030e5b8119f0379200d191",
+      "redactions": []
+    },
+    {
+      "path": "calls/055-F01-baseline/response.txt",
+      "source_sha256": "483330b2cd7bbe8f27e147e5df71d5430c1547dc0f83c6860e4ed24c67be4638",
+      "export_sha256": "483330b2cd7bbe8f27e147e5df71d5430c1547dc0f83c6860e4ed24c67be4638",
+      "redactions": []
+    },
+    {
+      "path": "calls/055-F01-baseline/result.json",
+      "source_sha256": "d2ba678414fd9f2193ce5b73eff0e88c28e22ddbace4aaaf2fb74ee75054b676",
+      "export_sha256": "ec5124747e8fc74abd0488d88173b8f946665e969c5bf95067d313542885db55",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/055-F01-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/056-F28-baseline/events.jsonl",
+      "source_sha256": "733b0d72ba3c49551a86306fba6b3a7e186cc02b70c9223bfc1876046660d21f",
+      "export_sha256": "733b0d72ba3c49551a86306fba6b3a7e186cc02b70c9223bfc1876046660d21f",
+      "redactions": []
+    },
+    {
+      "path": "calls/056-F28-baseline/prompt.txt",
+      "source_sha256": "0bb0922f012f5ef8c91eba4a1db66f2228eb1c1676571a43c13504c13bd12eb7",
+      "export_sha256": "0bb0922f012f5ef8c91eba4a1db66f2228eb1c1676571a43c13504c13bd12eb7",
+      "redactions": []
+    },
+    {
+      "path": "calls/056-F28-baseline/response.txt",
+      "source_sha256": "1950ef5a6ecdf20dad5d79b0c562abd1f2ca8f6990330d18b16503bea9cc91d3",
+      "export_sha256": "1950ef5a6ecdf20dad5d79b0c562abd1f2ca8f6990330d18b16503bea9cc91d3",
+      "redactions": []
+    },
+    {
+      "path": "calls/056-F28-baseline/result.json",
+      "source_sha256": "aa363ac7a0de581be2b65347ba72faf9421c46b2f76d85dbbcbc23394ea213f0",
+      "export_sha256": "62a70493517e75433d6b62cdca9b3398e8c0b681afd89e3561db8c2357f0175f",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/056-F28-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "case-snapshot.json",
+      "source_sha256": "6149ecb59fe1c48d25c8348674cb6a3e25792e192eedc2718c4835f3bba72317",
+      "export_sha256": "6149ecb59fe1c48d25c8348674cb6a3e25792e192eedc2718c4835f3bba72317",
+      "redactions": []
+    },
+    {
+      "path": "manifest.json",
+      "source_sha256": "500832ebb7137df689a959446852b494dd0fd40ff094a2dadb54c89b4bc075e4",
+      "export_sha256": "500832ebb7137df689a959446852b494dd0fd40ff094a2dadb54c89b4bc075e4",
+      "redactions": []
+    },
+    {
+      "path": "response-schema.json",
+      "source_sha256": "3bbd6e545feb843b718f0cc2d66613c9799a16381843362811155f665b3ab82b",
+      "export_sha256": "3bbd6e545feb843b718f0cc2d66613c9799a16381843362811155f665b3ab82b",
+      "redactions": []
+    },
+    {
+      "path": "runner-snapshot.py",
+      "source_sha256": "0f9933245707994ed9e7b79be69adfd0ee7e0abbd016305310735300ceefa6e3",
+      "export_sha256": "0f9933245707994ed9e7b79be69adfd0ee7e0abbd016305310735300ceefa6e3",
+      "redactions": []
+    },
+    {
+      "path": "schedule.json",
+      "source_sha256": "a0f5daa7307b390e455a1de908a351f32d2b1fbe265a468a701aedcf734aced0",
+      "export_sha256": "a0f5daa7307b390e455a1de908a351f32d2b1fbe265a468a701aedcf734aced0",
+      "redactions": []
+    },
+    {
+      "path": "scorer-snapshot.py",
+      "source_sha256": "9c5c728abc87deadb4e0204cc2bd4494019bca30c0caaf874696529f24661963",
+      "export_sha256": "9c5c728abc87deadb4e0204cc2bd4494019bca30c0caaf874696529f24661963",
+      "redactions": []
+    },
+    {
+      "path": "source-snapshots.json",
+      "source_sha256": "1a25624f748b533e17e78b02a411c6fb52aa72c6d29448321c80a1f373de4b00",
+      "export_sha256": "1a25624f748b533e17e78b02a411c6fb52aa72c6d29448321c80a1f373de4b00",
+      "redactions": []
+    },
+    {
+      "path": "summary.json",
+      "source_sha256": "0065213afb5070d3f5dc89d6021da3a1eea872d98855918753cffb874cfeca15",
+      "export_sha256": "0065213afb5070d3f5dc89d6021da3a1eea872d98855918753cffb874cfeca15",
+      "redactions": []
+    }
+  ],
+  "raw_event_logs_modified": false,
+  "withheld": [
+    "blind-review/",
+    "holdback/"
+  ],
+  "limitations": "Heuristic secret/path checks do not prove anonymity. Public arm-tagged outputs can weaken later blinding; reviewers must not view them before rating lock."
+}

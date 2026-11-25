@@ -1,0 +1,111 @@
+{
+  "synthetic_review_attested": true,
+  "files": [
+    {
+      "path": "calls/001-F09-skill/events.jsonl",
+      "source_sha256": "eca90c217e15010e572d1a7455c874bd690cd07e33bd70e1796207996014344b",
+      "export_sha256": "eca90c217e15010e572d1a7455c874bd690cd07e33bd70e1796207996014344b",
+      "redactions": []
+    },
+    {
+      "path": "calls/001-F09-skill/prompt.txt",
+      "source_sha256": "751bdcba60fe431e3f09d53b9f2e9cb3f37a98eef409fece0ddfff4d9a8cea66",
+      "export_sha256": "751bdcba60fe431e3f09d53b9f2e9cb3f37a98eef409fece0ddfff4d9a8cea66",
+      "redactions": []
+    },
+    {
+      "path": "calls/001-F09-skill/response.txt",
+      "source_sha256": "5ff3f4737bac4541a4b210a180b528a98a7daadc8bf5c6a5ff44f1df4ba5f2ec",
+      "export_sha256": "5ff3f4737bac4541a4b210a180b528a98a7daadc8bf5c6a5ff44f1df4ba5f2ec",
+      "redactions": []
+    },
+    {
+      "path": "calls/001-F09-skill/result.json",
+      "source_sha256": "e40275c33784290694489a2509573f3f38b7e5840014a15040d394fe931a6b1d",
+      "export_sha256": "09c4c62b1e777946af2b380e9dee21dcda66e2ecf300415955dbe63c037d8d38",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/001-F09-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F09-baseline/events.jsonl",
+      "source_sha256": "c7598a0ed269be6d39fc60c0822ccc2dacbf08f8a4c2a68d0225dfcd04fcb9a3",
+      "export_sha256": "c7598a0ed269be6d39fc60c0822ccc2dacbf08f8a4c2a68d0225dfcd04fcb9a3",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F09-baseline/prompt.txt",
+      "source_sha256": "0a265632f7ea5257c73bbe77e9773d3795e96d53cb109f041970cd097a12d6bb",
+      "export_sha256": "0a265632f7ea5257c73bbe77e9773d3795e96d53cb109f041970cd097a12d6bb",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F09-baseline/response.txt",
+      "source_sha256": "7a76f7ddafa7d1c72e6e3c77f7f6725277045abd6ffc6720b4ae5fd645858664",
+      "export_sha256": "7a76f7ddafa7d1c72e6e3c77f7f6725277045abd6ffc6720b4ae5fd645858664",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F09-baseline/result.json",
+      "source_sha256": "a958ba599e4e9b33157b061fb4cf8a416266259968e7ea37cdc041691262d6b0",
+      "export_sha256": "5871fec42c87dea38694320453257303a4af385645ad4931af143c9070815b0f",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/002-F09-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "case-snapshot.json",
+      "source_sha256": "e93f2acb307c4080d4a4d5760d2a95819cc6b0c7b9c942eba3e6bf8e61b3c1df",
+      "export_sha256": "e93f2acb307c4080d4a4d5760d2a95819cc6b0c7b9c942eba3e6bf8e61b3c1df",
+      "redactions": []
+    },
+    {
+      "path": "manifest.json",
+      "source_sha256": "51e87cab2d7e10083385625b84be631ad76f7216849b924cae1ab517202f1222",
+      "export_sha256": "51e87cab2d7e10083385625b84be631ad76f7216849b924cae1ab517202f1222",
+      "redactions": []
+    },
+    {
+      "path": "response-schema.json",
+      "source_sha256": "0eb2d45acfaabca49451244265e885e325a1353d8bceee81dfe8c5d1dec3282b",
+      "export_sha256": "0eb2d45acfaabca49451244265e885e325a1353d8bceee81dfe8c5d1dec3282b",
+      "redactions": []
+    },
+    {
+      "path": "schedule.json",
+      "source_sha256": "881ab254727081a7466e2f992450b0b1040a648614726e78b385fa8b6a29eab9",
+      "export_sha256": "881ab254727081a7466e2f992450b0b1040a648614726e78b385fa8b6a29eab9",
+      "redactions": []
+    },
+    {
+      "path": "source-snapshots.json",
+      "source_sha256": "c9f0db668f47a156aaaf4c375896d5c26781f06b4fa945686deb31214aa90afc",
+      "export_sha256": "c9f0db668f47a156aaaf4c375896d5c26781f06b4fa945686deb31214aa90afc",
+      "redactions": []
+    },
+    {
+      "path": "summary.json",
+      "source_sha256": "8b7df7bfbdd2d6342e1841ca8775ffd7a888f51c7b0a1c63fe67c647f2b30d4b",
+      "export_sha256": "8b7df7bfbdd2d6342e1841ca8775ffd7a888f51c7b0a1c63fe67c647f2b30d4b",
+      "redactions": []
+    }
+  ],
+  "raw_event_logs_modified": false,
+  "withheld": [
+    "blind-review/",
+    "holdback/"
+  ],
+  "limitations": "Heuristic secret/path checks do not prove anonymity. Public arm-tagged outputs can weaken later blinding; reviewers must not view them before rating lock."
+}

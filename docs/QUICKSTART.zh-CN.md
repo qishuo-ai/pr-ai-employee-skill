@@ -59,3 +59,9 @@
 无需安装上游运行时、发布插件或 MCP。只有单一会话时可逐岗执行，但应将结果标为待独立审核，不能把换角色自检当独立批准。
 
 技能标识仍为 `pr-ai-employee`。v1.1 将 display_name、version、language、default_mode 移入标准 frontmatter 的 `metadata` 内；自定义读取器若依赖旧顶层字段，应相应更新字段映射，Shadow Mode 规则不变。
+
+## 可执行参考运行时（v1.2.0）
+
+离线演示和测试使用 POSIX（Linux/macOS）上的 Python 3.9+，无第三方 Python 依赖。在仓库根目录运行 `python3 scripts/demo_engineering.py` 和 `python3 -m unittest discover -s tests -v`。接入真实工具前先读 [工程边界](ENGINEERING.md)。仅加载 Markdown Skill 不会自动强制执行工具权限。
+
+真实评测另需已安装并登录的 Codex CLI，显式指定账号可用模型。按 [评测协议](../evals/README.md) 使用独立会话与私有输出目录，不导入真实客户资料。

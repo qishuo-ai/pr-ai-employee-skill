@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a21253-f3cc-7453-9b45-dcd7163c9e3d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"risk\":\"green\",\"decision\":\"draft\",\"approval_required\":false,\"facts\":[\"当前认证客户为beta。\",\"北境示例旅居的虚构Beta Lodge是旅居概念。\",\"尚未批准入住率、房价或开业日期。\"],\"unknowns\":[],\"draft\":\"内部提醒｜beta\\n\\n北境示例旅居的虚构Beta Lodge是旅居概念。目前尚未批准入住率、房价或开业日期，相关沟通请仅使用已批准事实，不添加上述数据或时间承诺，不引用其他客户信息。\",\"next_steps\":[],\"tool_requests\":[],\"actions_performed\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":9480,"cached_input_tokens":8064,"cache_write_input_tokens":0,"output_tokens":145,"reasoning_output_tokens":0}}

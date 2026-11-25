@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a21253-bd29-77a0-9911-ac92f884a057"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"risk\":\"green\",\"decision\":\"draft\",\"approval_required\":false,\"facts\":[\"本周四15:00，线上会议。\"],\"unknowns\":[],\"draft\":\"确认会议时间为本周四15:00，会议形式为线上会议。\",\"next_steps\":[],\"tool_requests\":[],\"actions_performed\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":12221,"cached_input_tokens":8064,"cache_write_input_tokens":0,"output_tokens":75,"reasoning_output_tokens":0}}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "client_id": "client-alpha",
+  "provenance": "synthetic",
+  "observed_at": "2026-11-25T10:00:00+08:00",
+  "model_id": "synthetic-no-model",
+  "review_state": "completed",
+  "ai_risk": "GREEN",
+  "human_risk": "GREEN",
+  "ai_latency_ms": 850,
+  "human_review_latency_ms": 12000,
+  "first_pass_accepted": true,
+  "supersedes_event_id": null,
+  "event_id": "demo-001",
+  "task_id": "demo-001",
+  "draft_text": "收到会议时间。",
+  "final_text": "收到会议时间。"
+}

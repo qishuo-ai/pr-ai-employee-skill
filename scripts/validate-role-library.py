@@ -96,8 +96,13 @@ def validate(root, upstream=None):
     check(task_types <= coverage, 'Existing task types missing routing coverage')
 
     # Check explicit Markdown file links, excluding fenced examples and anchors.
-    for path in root.rglob('*.md'):
-        if '.git' in path.relative_to(root).parts:
+    # Validate repository sources, not ignored local run logs or installed tools.
+    source_names = subprocess.check_output(
+        ['git', '-C', str(root), 'ls-files', '--cached', '--others', '--exclude-standard', '-z'],
+        text=True).split('\0')
+    for name in sorted(set(filter(None, source_names))):
+        path = root / name
+        if path.suffix != '.md' or not path.is_file():
             continue
         text = re.sub(r'```.*?```', '', path.read_text(encoding='utf-8'), flags=re.S)
         for target in re.findall(r'\]\(([^)]+)\)', text):

@@ -1,0 +1,282 @@
+[
+  {
+    "scenario_id": "F05",
+    "arm": "skill",
+    "call_id": "001-F05-skill"
+  },
+  {
+    "scenario_id": "F23",
+    "arm": "baseline",
+    "call_id": "002-F23-baseline"
+  },
+  {
+    "scenario_id": "F25",
+    "arm": "baseline",
+    "call_id": "003-F25-baseline"
+  },
+  {
+    "scenario_id": "F17",
+    "arm": "baseline",
+    "call_id": "004-F17-baseline"
+  },
+  {
+    "scenario_id": "F20",
+    "arm": "baseline",
+    "call_id": "005-F20-baseline"
+  },
+  {
+    "scenario_id": "F12",
+    "arm": "skill",
+    "call_id": "006-F12-skill"
+  },
+  {
+    "scenario_id": "F03",
+    "arm": "baseline",
+    "call_id": "007-F03-baseline"
+  },
+  {
+    "scenario_id": "F15",
+    "arm": "skill",
+    "call_id": "008-F15-skill"
+  },
+  {
+    "scenario_id": "F09",
+    "arm": "baseline",
+    "call_id": "009-F09-baseline"
+  },
+  {
+    "scenario_id": "F04",
+    "arm": "baseline",
+    "call_id": "010-F04-baseline"
+  },
+  {
+    "scenario_id": "F21",
+    "arm": "skill",
+    "call_id": "011-F21-skill"
+  },
+  {
+    "scenario_id": "F19",
+    "arm": "skill",
+    "call_id": "012-F19-skill"
+  },
+  {
+    "scenario_id": "F14",
+    "arm": "baseline",
+    "call_id": "013-F14-baseline"
+  },
+  {
+    "scenario_id": "F14",
+    "arm": "skill",
+    "call_id": "014-F14-skill"
+  },
+  {
+    "scenario_id": "F19",
+    "arm": "baseline",
+    "call_id": "015-F19-baseline"
+  },
+  {
+    "scenario_id": "F16",
+    "arm": "skill",
+    "call_id": "016-F16-skill"
+  },
+  {
+    "scenario_id": "F07",
+    "arm": "baseline",
+    "call_id": "017-F07-baseline"
+  },
+  {
+    "scenario_id": "F08",
+    "arm": "baseline",
+    "call_id": "018-F08-baseline"
+  },
+  {
+    "scenario_id": "F27",
+    "arm": "skill",
+    "call_id": "019-F27-skill"
+  },
+  {
+    "scenario_id": "F28",
+    "arm": "skill",
+    "call_id": "020-F28-skill"
+  },
+  {
+    "scenario_id": "F21",
+    "arm": "baseline",
+    "call_id": "021-F21-baseline"
+  },
+  {
+    "scenario_id": "F26",
+    "arm": "skill",
+    "call_id": "022-F26-skill"
+  },
+  {
+    "scenario_id": "F05",
+    "arm": "baseline",
+    "call_id": "023-F05-baseline"
+  },
+  {
+    "scenario_id": "F12",
+    "arm": "baseline",
+    "call_id": "024-F12-baseline"
+  },
+  {
+    "scenario_id": "F24",
+    "arm": "skill",
+    "call_id": "025-F24-skill"
+  },
+  {
+    "scenario_id": "F18",
+    "arm": "baseline",
+    "call_id": "026-F18-baseline"
+  },
+  {
+    "scenario_id": "F22",
+    "arm": "skill",
+    "call_id": "027-F22-skill"
+  },
+  {
+    "scenario_id": "F13",
+    "arm": "baseline",
+    "call_id": "028-F13-baseline"
+  },
+  {
+    "scenario_id": "F06",
+    "arm": "baseline",
+    "call_id": "029-F06-baseline"
+  },
+  {
+    "scenario_id": "F11",
+    "arm": "skill",
+    "call_id": "030-F11-skill"
+  },
+  {
+    "scenario_id": "F07",
+    "arm": "skill",
+    "call_id": "031-F07-skill"
+  },
+  {
+    "scenario_id": "F09",
+    "arm": "skill",
+    "call_id": "032-F09-skill"
+  },
+  {
+    "scenario_id": "F26",
+    "arm": "baseline",
+    "call_id": "033-F26-baseline"
+  },
+  {
+    "scenario_id": "F03",
+    "arm": "skill",
+    "call_id": "034-F03-skill"
+  },
+  {
+    "scenario_id": "F24",
+    "arm": "baseline",
+    "call_id": "035-F24-baseline"
+  },
+  {
+    "scenario_id": "F10",
+    "arm": "baseline",
+    "call_id": "036-F10-baseline"
+  },
+  {
+    "scenario_id": "F01",
+    "arm": "skill",
+    "call_id": "037-F01-skill"
+  },
+  {
+    "scenario_id": "F25",
+    "arm": "skill",
+    "call_id": "038-F25-skill"
+  },
+  {
+    "scenario_id": "F23",
+    "arm": "skill",
+    "call_id": "039-F23-skill"
+  },
+  {
+    "scenario_id": "F02",
+    "arm": "skill",
+    "call_id": "040-F02-skill"
+  },
+  {
+    "scenario_id": "F27",
+    "arm": "baseline",
+    "call_id": "041-F27-baseline"
+  },
+  {
+    "scenario_id": "F20",
+    "arm": "skill",
+    "call_id": "042-F20-skill"
+  },
+  {
+    "scenario_id": "F10",
+    "arm": "skill",
+    "call_id": "043-F10-skill"
+  },
+  {
+    "scenario_id": "F04",
+    "arm": "skill",
+    "call_id": "044-F04-skill"
+  },
+  {
+    "scenario_id": "F16",
+    "arm": "baseline",
+    "call_id": "045-F16-baseline"
+  },
+  {
+    "scenario_id": "F22",
+    "arm": "baseline",
+    "call_id": "046-F22-baseline"
+  },
+  {
+    "scenario_id": "F06",
+    "arm": "skill",
+    "call_id": "047-F06-skill"
+  },
+  {
+    "scenario_id": "F13",
+    "arm": "skill",
+    "call_id": "048-F13-skill"
+  },
+  {
+    "scenario_id": "F17",
+    "arm": "skill",
+    "call_id": "049-F17-skill"
+  },
+  {
+    "scenario_id": "F02",
+    "arm": "baseline",
+    "call_id": "050-F02-baseline"
+  },
+  {
+    "scenario_id": "F08",
+    "arm": "skill",
+    "call_id": "051-F08-skill"
+  },
+  {
+    "scenario_id": "F18",
+    "arm": "skill",
+    "call_id": "052-F18-skill"
+  },
+  {
+    "scenario_id": "F15",
+    "arm": "baseline",
+    "call_id": "053-F15-baseline"
+  },
+  {
+    "scenario_id": "F11",
+    "arm": "baseline",
+    "call_id": "054-F11-baseline"
+  },
+  {
+    "scenario_id": "F01",
+    "arm": "baseline",
+    "call_id": "055-F01-baseline"
+  },
+  {
+    "scenario_id": "F28",
+    "arm": "baseline",
+    "call_id": "056-F28-baseline"
+  }
+]

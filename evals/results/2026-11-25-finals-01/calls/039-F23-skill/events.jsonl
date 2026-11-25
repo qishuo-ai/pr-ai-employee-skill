@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a21254-3e32-7361-88d8-94592c426afb"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"risk\":\"yellow\",\"decision\":\"draft\",\"approval_required\":false,\"facts\":[\"当前客户为alpha。\",\"极光示例出行的虚构Alpha S是城市出行概念。\",\"价格、续航及上市日期尚未批准。\",\"仅授权草拟与分析，处于shadow模式。\"],\"unknowns\":[],\"draft\":\"内部提醒｜alpha项目\\n\\n当前批准口径：极光示例出行的虚构Alpha S是城市出行概念。\\n\\n价格、续航及上市日期尚未批准，材料中不得将其写为已确认信息，也不得作出相关承诺。请仅使用本客户已批准事实，不引用其他客户资料。\\n\\n本稿仅供内部审阅，待独立复核（awaiting_independent_review），未对外发送。\",\"next_steps\":[\"由项目负责人独立复核内部提醒；如拟对外使用，另行提交授权审批。\"],\"tool_requests\":[],\"actions_performed\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":12270,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":222,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a21252-2376-7b21-9e8b-8f03ba3519f3"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"risk\":\"yellow\",\"decision\":\"draft\",\"approval_required\":true,\"facts\":[\"活动已暂停。\"],\"unknowns\":[\"事故原因及责任归属。\",\"是否存在伤亡及具体情况。\"],\"draft\":\"我们理解公众对现场安全和责任问题的关切。目前已确认活动暂停，事故原因及是否涉及人员伤亡尚未核实。现阶段信息不足，无法对品牌责任作出判断，也不能排除相关责任。人员安全应是当前首要关切；后续回应应以核实信息为依据，避免推测。\",\"next_steps\":[\"发布前由活动负责人核实事实，并由授权发言人审批。\",\"优先核实伤亡、现场安全及救援情况，再核查事故原因与各方责任。\"],\"tool_requests\":[],\"actions_performed\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":9426,"cached_input_tokens":8064,"cache_write_input_tokens":0,"output_tokens":185,"reasoning_output_tokens":0}}
