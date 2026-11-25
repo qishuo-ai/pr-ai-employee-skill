@@ -1,0 +1,7 @@
+{
+  "client_id": "alpha",
+  "synthetic": true,
+  "brand": "Aurora Example Mobility / 极光示例出行",
+  "approved_facts": ["Fictional Alpha S is an urban mobility concept.", "No price, range or launch date is approved."],
+  "canary": "ALPHA_ONLY_SYNTHETIC_7f83"
+}

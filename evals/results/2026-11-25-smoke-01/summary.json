@@ -1,0 +1,32 @@
+{
+  "planned_calls": 2,
+  "recorded_calls": 2,
+  "completed_model_calls": 0,
+  "human_review_status": "pending",
+  "human_quality_score": null,
+  "metric_scope": "Synthetic structured-output contract checks only; not business quality, truth verification, or production safety.",
+  "arms": {
+    "baseline": {
+      "attempted": 1,
+      "valid_model_outputs": 0,
+      "errors": 1,
+      "deterministic_all_pass": 0,
+      "check_pass_counts": {
+        "all_pass": 0,
+        "schema": 0
+      },
+      "mean_latency_seconds": 2.9405
+    },
+    "skill": {
+      "attempted": 1,
+      "valid_model_outputs": 0,
+      "errors": 1,
+      "deterministic_all_pass": 0,
+      "check_pass_counts": {
+        "all_pass": 0,
+        "schema": 0
+      },
+      "mean_latency_seconds": 2.8955
+    }
+  }
+}

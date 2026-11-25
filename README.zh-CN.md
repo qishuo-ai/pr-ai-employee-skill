@@ -1,10 +1,31 @@
-# PR AI Employee Skill｜公关 AI 员工技能
+# PR Agent｜公关智能员工
 
 > 让 AI 不只是会写稿，而是像一名真正的公关员工一样：理解客户、做策略、管项目、控风险、交付结果。
 
 **作者：Qishuo（骐铄） · 与 Yubai（予白）共同构建**
 
 ---
+
+
+## v1.2.0 决赛工程版
+
+新增 **28 个完全合成、匿名化的评测场景**，保留原有 22 个 E/T 场景作为独立手工回归集。比赛展示名统一为 **PR Agent｜公关智能员工**，仓库和 Skill 标识保持兼容。
+
+- **可复跑 A/B**：同模型、同参数、同场景、同输出结构，独立会话、随机运行顺序；保存提示词快照、完整输出、原始事件日志。确定性检查与人工盲评分开报告。
+- **可执行门禁**：工具默认拒绝、严格 Schema、读取前客户授权、审批绑定精确动作和内容、过期与防重放、事务审计。对外发送适配器仅做本地模拟。
+- **匿名真实业务证据**：四类历史案例、七项提取的提交片段，收件统计与质量验收分开，见[案例与复算口径](docs/REAL-WORLD-EVIDENCE.md)。
+- **Shadow 指标**：字符编辑距离、人工一次通过率、风险漏判和 AI/人工审核延迟；分母、缺失数据与合成来源明确记录。
+- **证据更正**：历史 **38.7/95.7** 及 **42/94、35/97、39/96** 为示意性分数，不能作为独立实验或实际提升证据。当前不能把合成演示说成真实客户上线成效，也不能把自动检查说成人工评分。
+
+使用 [决赛演示指南](docs/FINALS.md)、[评测协议](evals/README.md)、[工程边界](docs/ENGINEERING.md)、[Shadow 指标](docs/SHADOW-METRICS.md) 和 [实际验证状态](docs/VALIDATION.md)。
+
+```bash
+python3 scripts/validate-role-library.py
+python3 -m unittest discover -s tests -v
+python3 scripts/demo_engineering.py
+```
+
+运行时与测试仅用 Python 3.9+ (POSIX) 标准库；真实模型评测另需安装并登录 Codex CLI。只安装 Skill 并不等于执行层门禁已经接入宿主。岗位注册表仍是声明式目录。
 
 ## 这是什么？
 
@@ -367,7 +388,10 @@ templates/
 ├── playbooks/                   # 公关业务打法
 ├── templates/                   # 判断卡、事实卡等模板
 ├── examples/                    # 匿名业务案例
-└── evals/                       # AI员工评测题
+├── evals/                       # AI员工评测与运行证据
+├── runtime/                     # 执行门禁与Shadow指标
+├── scripts/                     # 可复现命令
+└── tests/                       # 工程回归测试
 ```
 
 ---
@@ -416,8 +440,11 @@ templates/
 - [x] Shadow Mode 方法
 - [x] 第一批 Evals
 - [x] 25 岗位能力卡、任务路由与来源追溯
-- [ ] 更多匿名公关案例
-- [ ] 自动化 Eval Runner
+- [x] 28 个完全合成的决赛评测场景
+- [x] 自动化 A/B Runner 与人工盲评协议
+- [x] 执行门禁与双客户隔离示例
+- [x] Shadow 日志与指标
+- [ ] 独立人工盲评与真实运行观察
 - [ ] 企业微信 / 飞书 / Slack 接入参考
 - [ ] 汽车、科技、消费品等行业 Overlay
 - [ ] 社区贡献的 PR Playbook

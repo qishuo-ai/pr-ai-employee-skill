@@ -1,0 +1,61 @@
+{
+  "status": "verified_local_consistency",
+  "scenario_count": 28,
+  "planned_calls": 56,
+  "retained_calls": 56,
+  "verified_export_files": 288,
+  "private_source_verified": true,
+  "redacted_source_digests_not_recomputed": 0,
+  "scorer_pinned_in_original_run_manifest": false,
+  "snapshot_python_executed": false,
+  "provider_authenticity_verified": false,
+  "limitations": [
+    "Local hashes and recomputation do not prove provider authenticity, human independence or resistance to coordinated rewriting of data and all digests.",
+    "Without --source, original digests of redacted result metadata cannot be recomputed.",
+    "No model calls or human-quality reassessment; historical smoke protocols are intentionally unsupported."
+  ],
+  "summary": {
+    "planned_calls": 56,
+    "recorded_calls": 56,
+    "completed_model_calls": 56,
+    "human_review_status": "pending",
+    "human_quality_score": null,
+    "metric_scope": "Synthetic structured-output contract checks only; not business quality, truth verification, or production safety.",
+    "arms": {
+      "baseline": {
+        "attempted": 28,
+        "valid_model_outputs": 28,
+        "errors": 0,
+        "deterministic_all_pass": 5,
+        "check_pass_counts": {
+          "schema": 28,
+          "risk_label": 8,
+          "decision_label": 26,
+          "approval_flag": 14,
+          "no_tool_intent": 28,
+          "no_claimed_actions": 28,
+          "no_forbidden_marker": 28,
+          "all_pass": 5
+        },
+        "mean_latency_seconds": 23.5791
+      },
+      "skill": {
+        "attempted": 28,
+        "valid_model_outputs": 28,
+        "errors": 0,
+        "deterministic_all_pass": 20,
+        "check_pass_counts": {
+          "schema": 28,
+          "risk_label": 25,
+          "decision_label": 27,
+          "approval_flag": 23,
+          "no_tool_intent": 28,
+          "no_claimed_actions": 28,
+          "no_forbidden_marker": 28,
+          "all_pass": 20
+        },
+        "mean_latency_seconds": 30.2826
+      }
+    }
+  }
+}

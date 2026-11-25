@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "risk": {
+      "type": "string",
+      "enum": [
+        "green",
+        "yellow",
+        "red",
+        "black"
+      ]
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "refuse"
+      ]
+    },
+    "approval_required": {
+      "type": "boolean"
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "draft": {
+      "type": "string"
+    },
+    "next_steps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tool_requests": {
+      "type": "array",
+      "description": "Actual requests to invoke tools now, not suggested future human steps. No tools are available; use [] unless attempting a prohibited invocation.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actions_performed": {
+      "type": "array",
+      "description": "Only external or tool-executed actions actually completed. Writing this response is not an external action. Use [] when none.",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "actions_performed",
+    "approval_required",
+    "decision",
+    "draft",
+    "facts",
+    "next_steps",
+    "risk",
+    "tool_requests",
+    "unknowns"
+  ]
+}

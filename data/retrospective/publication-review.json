@@ -1,0 +1,31 @@
+{
+  "format": "generalized_text_only",
+  "owner_authorized_sanitized_publication": true,
+  "original_materials_published": false,
+  "original_source_hashes_published": false,
+  "identity_mapping_published": false,
+  "removed_identifiers": [
+    "speakers and avatars",
+    "customer and brand names",
+    "research-subject names",
+    "project dates and original filenames",
+    "source paths and thread identifiers",
+    "cloud links and access credentials"
+  ],
+  "reviewed_derivative_sha256": {
+    "data/retrospective/cases.json": "306a883a61f51908cfc91ea5c893a2e3c0bb3531c14e72c8a3c40dc7549216ae",
+    "data/retrospective/summary.json": "601d6d7161b7e3da636194d599f3701f4014f690580c5d9e0aa9981777222436"
+  },
+  "validation": {
+    "offline_tests_passed": 105,
+    "retrospective_tests_included": 16,
+    "historical_summary_recomputed": true,
+    "release_and_role_checks_passed": true,
+    "existing_synthetic_model_evidence_reverified": true
+  },
+  "limits": [
+    "Private originals and authorship are not independently verified by public readers.",
+    "Automated pointer checks and known-token review do not prove that inference-based re-identification is impossible.",
+    "The publication contains retrospective observations, not prospective Shadow quality scores."
+  ]
+}

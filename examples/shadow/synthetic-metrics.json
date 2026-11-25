@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "measurement": "shadow_observations_not_an_autonomy_authorization",
+  "total_events": 4,
+  "current_task_snapshots": 4,
+  "superseded_events": 0,
+  "by_provenance": {
+    "synthetic": {
+      "events": 4,
+      "completed": 3,
+      "pending": 1,
+      "first_pass": {
+        "accepted": 1,
+        "denominator": 2,
+        "excluded": 2,
+        "rate": 0.5
+      },
+      "edit_distance": {
+        "unit": "Unicode code points",
+        "denominator": 3,
+        "excluded": 1,
+        "mean": 1.3333333333333333,
+        "mean_normalized": 0.19047619047619047,
+        "normalization": "distance / max(draft_characters, final_characters); empty/empty = 0"
+      },
+      "risk_misses": {
+        "misses": 1,
+        "denominator": 2,
+        "excluded": 2,
+        "rate": 0.5,
+        "severe_misses": 1,
+        "severe_denominator": 1,
+        "severe_rate": 1.0
+      },
+      "ai_latency": {
+        "unit": "ms",
+        "n": 3,
+        "excluded": 1,
+        "mean": 996.6666666666666,
+        "p50_nearest_rank": 940,
+        "p95_nearest_rank": 1200
+      },
+      "human_review_latency": {
+        "unit": "ms",
+        "n": 2,
+        "excluded": 2,
+        "mean": 30000.0,
+        "p50_nearest_rank": 12000,
+        "p95_nearest_rank": 48000
+      }
+    },
+    "observed": {
+      "events": 0,
+      "completed": 0,
+      "pending": 0,
+      "first_pass": {
+        "accepted": 0,
+        "denominator": 0,
+        "excluded": 0,
+        "rate": null
+      },
+      "edit_distance": {
+        "unit": "Unicode code points",
+        "denominator": 0,
+        "excluded": 0,
+        "mean": null,
+        "mean_normalized": null,
+        "normalization": "distance / max(draft_characters, final_characters); empty/empty = 0"
+      },
+      "risk_misses": {
+        "misses": 0,
+        "denominator": 0,
+        "excluded": 0,
+        "rate": null,
+        "severe_misses": 0,
+        "severe_denominator": 0,
+        "severe_rate": null
+      },
+      "ai_latency": {
+        "unit": "ms",
+        "n": 0,
+        "excluded": 0,
+        "mean": null,
+        "p50_nearest_rank": null,
+        "p95_nearest_rank": null
+      },
+      "human_review_latency": {
+        "unit": "ms",
+        "n": 0,
+        "excluded": 0,
+        "mean": null,
+        "p50_nearest_rank": null,
+        "p95_nearest_rank": null
+      }
+    }
+  },
+  "limitations": [
+    "Human labels are supplied, not independently verified by this utility.",
+    "Edit distance measures textual changes, not factual correctness or usefulness.",
+    "Risk misses compare supplied ordinal labels; omitted risks require human review.",
+    "Hashes and pseudonymous identifiers are sensitive metadata; keep observed logs private.",
+    "This utility does not measure production performance without observed events."
+  ]
+}

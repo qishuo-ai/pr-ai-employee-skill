@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "study_type": "retrospective",
+  "source_verification": "maintainer_private_evidence_not_independently_verified",
+  "quality_metrics": {
+    "first_pass_rate": null,
+    "mean_edit_distance": null,
+    "risk_miss_rate": null,
+    "ai_latency_ms": null
+  },
+  "cases": [
+    {
+      "case_id": "case-001",
+      "title": "空间视觉方案改稿",
+      "scope": "同一项目多视角视觉稿的反馈与局部认可",
+      "evidence_summary": [
+        "私有材料包括五张沟通截图、四张早期方案图及三张相关子任务图。",
+        "可见局部认可、顶部修改、另一视角不需修改，以及接待区和内景不同状态。",
+        "相关子任务有保存的生成图，不能据此认定客户采纳或完整工作流成功。"
+      ],
+      "learning_points": [
+        "认可须绑定具体视角、版本和部位。",
+        "执行者回应不等于客户批准。",
+        "主观反馈须转换为可核对修改，视觉认可不能代替落地可行性确认。"
+      ],
+      "gaps": [
+        "原始主任务生成日志、完整版本序列和正式验收未恢复。",
+        "实际工作量、独立风险标签和首次通过情况未知。"
+      ]
+    },
+    {
+      "case_id": "case-002",
+      "title": "海外内容制作与交付",
+      "scope": "证言图、热点内容、风格审阅、本地化和格式要求",
+      "evidence_summary": [
+        "六张私有截图显示内容送审、特定预览的正向反馈及多种格式交付要求。",
+        "另一个版本仍需查看，英文替换和权利评估有明确待办。",
+        "相关产品内容存在项目范围内的竖版偏好。"
+      ],
+      "learning_points": [
+        "赞许、收件、上传要求和对外发布授权分别记录。",
+        "风格认可与本地化完成度分开。",
+        "客户偏好只在已确认的项目和内容类型内复用。"
+      ],
+      "gaps": [
+        "视频原文件、源工程、最终本地化版本及发布回执未取得。",
+        "未看到权利评估结论，不能宣称已放行。"
+      ]
+    },
+    {
+      "case_id": "case-003",
+      "title": "公开信息研究与交付管理",
+      "scope": "媒体、人物及合作对象研究的产出与沟通",
+      "evidence_summary": [
+        "四组历史报告以七个文档文件留存；不同格式不作为不同实验。",
+        "另外五张截图覆盖六项研究交付片段，其中四项有收件回应。",
+        "一个任务有两次催办及更新交期，重叠截图中的同一提交只计一次。",
+        "三项任务可计算同一显示日期的需求至提交聊天跨度。"
+      ],
+      "learning_points": [
+        "先核实机构属性与人员职能，再组织接触建议。",
+        "候选身份匹配保留不确定性，个人报道、机构报道和商业交集分开。",
+        "报告内容追溯与公开原始来源追溯是不同层级。",
+        "收件不等于质量验收；聊天跨度不等于模型或人工工作时间。"
+      ],
+      "gaps": [
+        "新增截图里的六个报告原附件未恢复，不能与之前四组报告强行对应。",
+        "既有文档未检出直接网页链接；部分有来源名称，但原始检索链仍缺失。",
+        "缺少逐次模型输入输出、独立评分及正式质量验收。"
+      ]
+    },
+    {
+      "case_id": "case-004",
+      "title": "演讲翻译校对与双语字幕",
+      "scope": "音频、双语稿件、字幕需求和提交状态",
+      "evidence_summary": [
+        "两张私有截图可见音频及文本输入卡、校对与字幕要求，以及后续译文文档卡。",
+        "提交者声称完成并请审阅；找到一份文件名匹配的本地文本输入候选。",
+        "存在计价方式的内部建议，后续邻接内容任务与本任务分开。"
+      ],
+      "learning_points": [
+        "音频校对、双语稿和带时间轴字幕需分别核验。",
+        "提交者完成声明不等于客户验收。",
+        "计价建议不是客户确认；公开案例不保留访问凭证。"
+      ],
+      "gaps": [
+        "未取得原音频、最终译文文档或带时间轴字幕。",
+        "本地文本与聊天输入的确切版本关系未知。",
+        "翻译准确率、人工修改量、完成时点和客户验收未知。"
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "episode_id": "episode-001",
+      "case_id": "case-003",
+      "request_seen": null,
+      "submission_seen": true,
+      "receipt_acknowledged": null,
+      "quality_accepted": null,
+      "chat_elapsed_minutes": null
+    },
+    {
+      "episode_id": "episode-002",
+      "case_id": "case-003",
+      "request_seen": true,
+      "submission_seen": true,
+      "receipt_acknowledged": true,
+      "quality_accepted": null,
+      "chat_elapsed_minutes": null
+    },
+    {
+      "episode_id": "episode-003",
+      "case_id": "case-003",
+      "request_seen": true,
+      "submission_seen": true,
+      "receipt_acknowledged": true,
+      "quality_accepted": null,
+      "chat_elapsed_minutes": 237
+    },
+    {
+      "episode_id": "episode-004",
+      "case_id": "case-003",
+      "request_seen": true,
+      "submission_seen": true,
+      "receipt_acknowledged": true,
+      "quality_accepted": null,
+      "chat_elapsed_minutes": null
+    },
+    {
+      "episode_id": "episode-005",
+      "case_id": "case-003",
+      "request_seen": true,
+      "submission_seen": true,
+      "receipt_acknowledged": null,
+      "quality_accepted": null,
+      "chat_elapsed_minutes": 194
+    },
+    {
+      "episode_id": "episode-006",
+      "case_id": "case-003",
+      "request_seen": true,
+      "submission_seen": true,
+      "receipt_acknowledged": true,
+      "quality_accepted": null,
+      "chat_elapsed_minutes": 415
+    },
+    {
+      "episode_id": "episode-007",
+      "case_id": "case-004",
+      "request_seen": true,
+      "submission_seen": true,
+      "receipt_acknowledged": null,
+      "quality_accepted": null,
+      "chat_elapsed_minutes": null
+    }
+  ]
+}

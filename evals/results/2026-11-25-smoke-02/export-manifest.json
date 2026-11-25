@@ -1,0 +1,99 @@
+{
+  "synthetic_review_attested": true,
+  "files": [
+    {
+      "path": "calls/001-F09-skill/events.jsonl",
+      "source_sha256": "2121a8643e04a1bb95f0574c973de7821bd9ffad6f27eb25830e510b087dad90",
+      "export_sha256": "2121a8643e04a1bb95f0574c973de7821bd9ffad6f27eb25830e510b087dad90",
+      "redactions": []
+    },
+    {
+      "path": "calls/001-F09-skill/prompt.txt",
+      "source_sha256": "751bdcba60fe431e3f09d53b9f2e9cb3f37a98eef409fece0ddfff4d9a8cea66",
+      "export_sha256": "751bdcba60fe431e3f09d53b9f2e9cb3f37a98eef409fece0ddfff4d9a8cea66",
+      "redactions": []
+    },
+    {
+      "path": "calls/001-F09-skill/result.json",
+      "source_sha256": "e87ff7767e3d78a372c1be77ff6d90b4a611ff2fee6460ff968a5ff476a1aeda",
+      "export_sha256": "56c9f916741436a0a3770be0b86c46d1ec6c066691c3bd1edbc0fe4f42843e6b",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/001-F09-skill/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F09-baseline/events.jsonl",
+      "source_sha256": "c209ac0433441f1cf64b8fbda56ac99b8aa0e254d8bfe7451f6bd738b908143a",
+      "export_sha256": "c209ac0433441f1cf64b8fbda56ac99b8aa0e254d8bfe7451f6bd738b908143a",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F09-baseline/prompt.txt",
+      "source_sha256": "0a265632f7ea5257c73bbe77e9773d3795e96d53cb109f041970cd097a12d6bb",
+      "export_sha256": "0a265632f7ea5257c73bbe77e9773d3795e96d53cb109f041970cd097a12d6bb",
+      "redactions": []
+    },
+    {
+      "path": "calls/002-F09-baseline/result.json",
+      "source_sha256": "72da207ef94b09ba529712ee0c7ba8586558b7afb0bd8d63d036b684ff979bc8",
+      "export_sha256": "a5bba95dbca0fe527a5c888dea6437f762c33b03d7da7de24a808991b51e9a0e",
+      "redactions": [
+        "command[0]: local executable path replaced with codex"
+      ]
+    },
+    {
+      "path": "calls/002-F09-baseline/stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": []
+    },
+    {
+      "path": "case-snapshot.json",
+      "source_sha256": "e93f2acb307c4080d4a4d5760d2a95819cc6b0c7b9c942eba3e6bf8e61b3c1df",
+      "export_sha256": "e93f2acb307c4080d4a4d5760d2a95819cc6b0c7b9c942eba3e6bf8e61b3c1df",
+      "redactions": []
+    },
+    {
+      "path": "manifest.json",
+      "source_sha256": "fce2e0bda4f5953cc62277b5123c605f5c57b06d2de0e031524ae965ce8ef3fa",
+      "export_sha256": "fce2e0bda4f5953cc62277b5123c605f5c57b06d2de0e031524ae965ce8ef3fa",
+      "redactions": []
+    },
+    {
+      "path": "response-schema.json",
+      "source_sha256": "0eb2d45acfaabca49451244265e885e325a1353d8bceee81dfe8c5d1dec3282b",
+      "export_sha256": "0eb2d45acfaabca49451244265e885e325a1353d8bceee81dfe8c5d1dec3282b",
+      "redactions": []
+    },
+    {
+      "path": "schedule.json",
+      "source_sha256": "881ab254727081a7466e2f992450b0b1040a648614726e78b385fa8b6a29eab9",
+      "export_sha256": "881ab254727081a7466e2f992450b0b1040a648614726e78b385fa8b6a29eab9",
+      "redactions": []
+    },
+    {
+      "path": "source-snapshots.json",
+      "source_sha256": "c9f0db668f47a156aaaf4c375896d5c26781f06b4fa945686deb31214aa90afc",
+      "export_sha256": "c9f0db668f47a156aaaf4c375896d5c26781f06b4fa945686deb31214aa90afc",
+      "redactions": []
+    },
+    {
+      "path": "summary.json",
+      "source_sha256": "42eaf21e34b6318df7d02e4530f4c9b965e99484f4a3d9f0e8e8a4319a9bc932",
+      "export_sha256": "42eaf21e34b6318df7d02e4530f4c9b965e99484f4a3d9f0e8e8a4319a9bc932",
+      "redactions": []
+    }
+  ],
+  "raw_event_logs_modified": false,
+  "withheld": [
+    "blind-review/",
+    "holdback/"
+  ],
+  "limitations": "Heuristic secret/path checks do not prove anonymity. Public arm-tagged outputs can weaken later blinding; reviewers must not view them before rating lock."
+}
